@@ -1,0 +1,879 @@
+@CHARSET "UTF-8";
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+}
+/* Reset */
+.bsContainer div, .bsContainer span, .bsContainer applet, .bsContainer object, .bsContainer iframe,
+.bsContainer h1, .bsContainer h2, .bsContainer h3, .bsContainer h4, .bsContainer h5, .bsContainer h6, .bsContainer p, .bsContainer blockquote, .bsContainer pre,
+.bsContainer a, .bsContainer abbr, .bsContainer acronym, .bsContainer address, .bsContainer big, .bsContainer cite, .bsContainer code,
+.bsContainer del, .bsContainer dfn, .bsContainer em, .bsContainer img, .bsContainer ins, .bsContainer kbd, .bsContainer q, .bsContainer s, .bsContainer samp,
+.bsContainer small, .bsContainer strike, .bsContainer strong, .bsContainer sub, .bsContainer sup, .bsContainer tt, .bsContainer var,
+.bsContainer b, .bsContainer u, .bsContainer i, .bsContainer center,
+.bsContainer dl, .bsContainer dt, .bsContainer dd, .bsContainer ol, .bsContainer ul, .bsContainer li,
+.bsContainer fieldset, .bsContainer form, .bsContainer label, .bsContainer legend,
+.bsContainer table, .bsContainer caption, .bsContainer tbody, .bsContainer tfoot, .bsContainer thead, .bsContainer tr, .bsContainer th, .bsContainer td,
+.bsContainer article, .bsContainer aside, .bsContainer canvas, .bsContainer details, .bsContainer embed, 
+.bsContainer figure, .bsContainer figcaption, .bsContainer footer, .bsContainer header, .bsContainer hgroup, 
+.bsContainer menu, .bsContainer nav, .bsContainer output, .bsContainer ruby, .bsContainer section, .bsContainer summary,
+.bsContainer time, .bsContainer mark, .bsContainer audio, .bsContainer video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+.bsContainer article, .bsContainer aside, .bsContainer details, .bsContainer figcaption, .bsContainer figure, 
+.bsContainer footer, .bsContainer header, .bsContainer hgroup, .bsContainer menu, .bsContainer nav, .bsContainer section {
+	display: block;
+}
+.bsContainer ol, .bsContainer ul {
+	list-style: none;
+}
+.bsContainer blockquote, .bsContainer q {
+	quotes: none;
+}
+.bsContainer blockquote:before, .bsContainer blockquote:after,
+.bsContainer q:before, .bsContainer q:after {
+	content: '';
+	content: none;
+}
+.bsContainer table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* init */
+.bsContainer{
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #909598;
+}
+.bsContainer div,
+.bsContainer p,
+.bsContainer span,
+.bsContainer ul{
+	background-color: inherit;
+	color: inherit;
+	font: inherit;
+}
+
+/* General */
+.bsContainer .bsBold{font-weight: bold !important}
+.bsContainer .bsItalic{font-style: italic !important}
+.bsContainer .bsUnderline{text-decoration: underline !important}
+.bsContainer .bsFloatLeft{float: left}
+.bsContainer .bsFloatRight{float: right}
+.bsContainer .bsClearLeft{clear: left}
+.bsContainer .bsClearRight{clear: right}
+.bsContainer .bsClearBoth{clear: both}
+.bsContainer .bsOverflow{overflow: hidden}
+.bsContainer .bsAlignRight{text-align: right !important}
+.bsContainer .bsAlignCenter{text-align: center !important}
+.bsContainer .bsAlignMiddle{vertical-align: middle !important}
+.bsContainer .bsUpperCase{text-transform: uppercase !important}
+.bsContainer .bsInlineBlock{display: inline-block}
+.bsContainer .bsM10{margin: 10px;}
+.bsContainer .bsR5{margin-right: 5px}
+.bsContainer .bsR14{margin-right: 14px}
+.bsContainer .bsT10{margin-top: 10px !important;}
+.bsContainer .bsT20{margin-top: 20px !important;}
+.bsContainer .bsB10{margin-bottom: 10px !important;}
+.bsContainer .bsB20{margin-bottom: 20px !important;}
+.bsContainer .bsW90{width: 90px;}
+.bsContainer .bsW180{width: 180px;}
+.bsContainer .bsW200{width: 200px;}
+.bsContainer .bsW90p{width: 90%;}
+.bsContainer .bsW85p{width: 85%;}
+.bsContainer .bsW80p{width: 80%;}
+.bsContainer .bsW70p{width: 70%;}
+.bsContainer .bsH100{height: 100px;}
+
+.bsContainer .bsOverflow{overflow: hidden;}
+.bsContainer .bsDark{color: #1a1d1f;}
+
+.bsContainer a:link,
+.bsContainer a:visited,
+.bsContainer a:active{
+	color: #0f6daa;
+	outline: none;
+	text-decoration: none;
+}
+.bsContainer a:hover{
+	text-decoration: underline;
+}
+
+.bsContainer .bsText,
+.bsContainer .bsTextarea,
+.bsContainer .bsSelect{
+	background-color: #fff;
+	border: solid 1px #c7cacc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: 9px 7px;
+	line-height: 18px;
+	color: #333333;
+	font-size: 14px;
+	-moz-box-sizing: border-box;
+	-webkit-box-shadow: inset 0px 2px 3px 0px rgba(228,227,227,0.7);
+	-moz-box-shadow: inset 0px 2px 3px 0px rgba(228,227,227,0.7);
+	box-shadow: inset 0px 2px 3px 0px rgba(228,227,227,0.7);
+	margin-bottom: 4px;
+}
+.bsContainer .bsStretch{
+	width: 100%;
+}
+.bsContainer .bsSelect{
+	
+}
+.bsContainer input,
+.bsContainer select,
+.bsContainer textarea,
+.bsContainer button{
+	font-size: 100%;
+	font-family: inherit;
+	outline: none;
+}
+.bsContainer .bsVoucherField{
+	margin-right: 6px;
+	margin-top: 2px;
+}
+.bsContainer .bsDatepicker{
+	background: #fff url([URL]app/web/img/frontend/bs-calendar-icon.png) right center no-repeat;
+	cursor: pointer;
+	width: 130px; 
+}
+.bsContainer .bsBefore{
+	margin-top: 15px;
+}
+.bsContainer .bsAfter{
+	margin-bottom: 15px;
+}
+.bsContainer .bsRed{color: #f65f00}
+.bsH100{height: 100px}
+.bsH150{height: 150px}
+/* Table */
+.bsContainer .bsTable{
+	width: 100%;
+}
+.bsContainer .bsTable th,
+.bsContainer .bsTable td{
+	padding: 10px 6px;
+	text-align: left;
+}
+.bsContainer .bsTable th{
+	background-color: #0d5a8e;
+	font-size:10px;
+	color: #ffffff;
+}
+.bsContainer .bsTable thead tr th:first-child{
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+}
+.bsContainer .bsTable thead tr th:last-child{
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;
+}
+.bsContainer .bsTable tbody{
+	border: 1px solid #e7e7e7;
+}
+.bsContainer .bsTable tbody td{
+	background-color: #ffffff;
+}
+.bsContainer .bsTable tbody td.bsAvailSeats{
+	color: #5fb700;
+}
+.bsContainer .bsTable tbody td.bsDuration{
+	color: #909598;
+	font-size:11px;
+}
+.bsContainer .bsTable tbody tr.bsFocusRow td{
+	color: #5fb700;
+	background-color: #f9f8f6;
+}
+.bsContainer .bsTable td{
+	border-bottom: 1px solid #e7e7e7;
+	color: #1a1d1f;
+	vertical-align: middle;
+}
+.bsContainer .bsTable td label{
+	display: block;
+	margin-bottom: 2px;
+}
+.bsContainer .bsTable td span{
+	display: block;
+	overflow: hidden;
+}
+.bsContainer .bsBorderBottom{
+	border-bottom: solid 1px #dbdbda;
+}
+/* Locale menu */
+.bsContainer .bsLocale{
+	overflow: hidden;
+}
+.bsContainer .bsLocaleMenu{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: right;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	height: 34px;
+	overflow: hidden;
+	background-color: #0c0c0c;
+}
+.bsContainer .bsLocaleMenu li{
+	display: inline-block;
+	margin: 0;
+	background-color: #0c0c0c;
+	width: 41px;
+}
+.bsContainer .bsLocaleMenu li:last-child{
+	width: 40px;
+}
+.bsContainer .bsLocaleMenu li a{
+	background-color: #464749;
+	display: inline-block;
+	width: 40px;
+	height: 34px;
+	background-position: top center;
+	background-repeat: no-repeat;
+	position: relative;
+	text-decoration: none;
+	margin-right: 1px;
+}
+.bsContainer .bsLocaleMenu li a:LAST-CHILD{
+	margin-right: 0px;
+}
+.bsContainer .bsLocaleMenu li a img{
+	border: none;
+	position: absolute;
+	top: 12px;
+	left: 12px;
+}
+.bsContainer .bsLocaleMenu li a:hover{
+	background-color: #323335;
+}
+.bsContainer .bsLocaleMenu li a:active,
+.bsContainer .bsLocaleMenu li a:focus,
+.bsContainer .bsLocaleMenu li a.bsLocaleFocus{
+	background-color: #323335;
+}
+/* Header */
+.bsHeader{
+	background-color: #ffffff;
+	height: 61px;
+	position: relative;
+}
+.bsHeader .bsHeaderAbove{
+	background-color: #323335;
+	height: 41px;
+	-webkit-border-top-left-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+}
+.bsHeader .bsHeaderBelow{
+	background-color: #1a1b1d;
+	height: 20px;
+}
+.bsHeaderSteps{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+.bsHeaderSteps div{
+	float: left;
+}
+.bsHeaderSteps div.bsStep1{
+	width: 30%;
+}
+.bsHeaderSteps div.bsStep4{
+	width: 30%;
+}
+.bsHeaderSteps div.bsStep2,
+.bsHeaderSteps div.bsStep3{
+	width: 20%;
+}
+.bsHeaderSteps div span.bsStep{
+	display: block;
+	margin: 0 auto;
+	
+	margin-bottom: 0px;
+	width: 18px;
+	height: 29px;
+	background: url([URL]app/web/img/frontend/step.png) 0 0;
+}
+
+.bsHeaderSteps div span.passed{
+	background: url([URL]app/web/img/frontend/passed-step.png) 0 0;
+}
+.bsHeaderSteps div span.bsStepPassed{
+	background: url([URL]app/web/img/frontend/passed-step.png) 0 0;
+	cursor: pointer;
+}
+.bsHeaderSteps div span.focus{
+	background: url([URL]app/web/img/frontend/current-step.png) 0 0;
+	cursor: pointer;
+}
+
+.bsHeaderSteps div a.bsStepLink{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	color: #d4d4d4;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-bottom: 4px;
+	text-decoration: none;
+	cursor: default;
+}
+.bsHeaderSteps div a.bsStepClickable{
+	cursor: pointer;
+}
+.bsHeaderSteps div a.focus{
+	color: #ffffff;
+	text-decoration: none;
+}
+/* Button Blue */
+.bsContainer .bsButtonBlue{
+	overflow: hidden;
+	border: 0px;
+	outline: none;
+	padding: 0;
+	margin: 0px 0px 0px -2px;
+	background: none;
+	height: 37px;
+}
+.bsContainer .bsButtonBlue abbr{
+	display: block;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+}
+.bsContainer .bsButtonBlue abbr.left{
+	width: 5px;
+	background: url([URL]app/web/img/frontend/blue-button-left.png) 0 0 no-repeat;
+}
+.bsContainer .bsButtonBlue abbr.right{
+	width: 5px;
+	background: url([URL]app/web/img/frontend/blue-button-right.png) 0 0 no-repeat;
+}
+.bsContainer .bsButtonBlue abbr.middle{
+	background: url([URL]app/web/img/frontend/blue-button-middle.png) 0 0 repeat-x;
+	color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+	font-size: 14px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.bsContainer .bsButtonBlue:HOVER{
+	cursor: pointer;
+}
+.bsContainer .bsButtonBlue:HOVER abbr{
+	background-position: 0 -36px;
+}
+
+.bsContainer .bsButtonBlueDisabled abbr.left{
+	width: 5px;
+	background: url([URL]app/web/img/frontend/blue-button-left.png) 0 -72px no-repeat;
+}
+.bsContainer .bsButtonBlueDisabled abbr.right{
+	width: 5px;
+	background: url([URL]app/web/img/frontend/blue-button-right.png) 0 -72px no-repeat;
+}
+.bsContainer .bsButtonBlueDisabled abbr.middle{
+	background: url([URL]app/web/img/frontend/blue-button-middle.png) 0 -72px repeat-x;
+}
+.bsContainer .bsButtonBlueDisabled:HOVER{
+	cursor: default;
+}
+/* Button Red */
+.bsContainer .bsButtonRed{
+	overflow: hidden;
+	border: none;
+	outline: none;
+	padding: 0;
+	margin: 0;
+	background: none;
+	height: 37px;
+}
+.bsContainer .bsButtonRed abbr{
+	display: block;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+}
+.bsContainer .bsButtonRed abbr.left{
+	width: 5px;
+	background: url([URL]app/web/img/frontend/red-button-left.png) 0 0 no-repeat;
+}
+.bsContainer .bsButtonRed abbr.right{
+	width: 5px;
+	background: url([URL]app/web/img/frontend/red-button-right.png) 0 0 no-repeat;
+}
+.bsContainer .bsButtonRed abbr.middle{
+	background: url([URL]app/web/img/frontend/red-button-middle.png) 0 0 repeat-x;
+	color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+	font-size: 14px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.bsContainer .bsButtonRed:HOVER{
+	cursor: pointer;
+}
+.bsContainer .bsButtonRed:HOVER abbr{
+	background-position: 0 -36px;
+}
+
+.bsContainer .bsButtonRedDisabled abbr.left{
+	width: 5px;
+	background: url([URL]app/web/img/frontend/red-button-left.png) 0 -72px no-repeat;
+}
+.bsContainer .bsButtonRedDisabled abbr.right{
+	width: 5px;
+	background: url([URL]app/web/img/frontend/red-button-right.png) 0 -72px no-repeat;
+}
+.bsContainer .bsButtonRedDisabled abbr.middle{
+	background: url([URL]app/web/img/frontend/red-button-middle.png) 0 -72px repeat-x;
+}
+.bsContainer .bsButtonRedDisabled:HOVER{
+	cursor: default;
+}
+/* Button Black */
+.bsContainer .bsButtonBlack{
+	overflow: hidden;
+	border: none;
+	outline: none;
+	padding: 0;
+	margin: 0;
+	background: none;
+	height: 32px;
+}
+.bsContainer .bsButtonBlack abbr{
+	display: block;
+	float: left;
+	height: 32px;
+	line-height: 32px;
+}
+.bsContainer .bsButtonBlack abbr.left{
+	width: 5px;
+	background: url([URL]app/web/img/frontend/black-button-left.png) 0 0 no-repeat;
+}
+.bsContainer .bsButtonBlack abbr.right{
+	width: 5px;
+	background: url([URL]app/web/img/frontend/black-button-right.png) 0 0 no-repeat;
+}
+.bsContainer .bsButtonBlack abbr.middle{
+	background: url([URL]app/web/img/frontend/black-button-middle.png) 0 0 repeat-x;
+	color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: bold;
+	font-size: 14px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.bsContainer .bsButtonBlack:HOVER{
+	cursor: pointer;
+}
+.bsContainer .bsButtonBlack:HOVER abbr{
+	background-position: 0 -36px;
+}
+
+.bsContainer .bsButtonBlackDisabled abbr.left{
+	width: 5px;
+	background: url([URL]app/web/img/frontend/black-button-left.png) 0 -64px no-repeat;
+}
+.bsContainer .bsButtonBlackDisabled abbr.right{
+	width: 5px;
+	background: url([URL]app/web/img/frontend/black-button-right.png) 0 -64px no-repeat;
+}
+.bsContainer .bsButtonBlackDisabled abbr.middle{
+	background: url([URL]app/web/img/frontend/black-button-middle.png) 0 -64px repeat-x;
+}
+.bsContainer .bsButtonBlackDisabled:HOVER{
+	cursor: default;
+}
+/* Form */
+.bsContainer .bsSearchItem{
+	overflow: hidden;
+	margin: 0 8px 16px 0;
+	
+}
+.bsContainer .bsSearchItemChosen{
+	overflow: visible;
+	margin: 0 8px 16px 0;
+}
+.bsContainer .bsSearchItemLabel{
+	margin: 5px 0;
+	color: #333333;
+	float: left;
+	width: 100px;
+}
+.bsContainer .bsSearchItem label.error{
+	display: block;
+	color: #de1515;
+	padding-left: 100px;
+}
+.bsContainer .bsFormRow{
+	margin-bottom: 14px;
+	overflow: hidden;
+}
+.bsContainer .bsFormRow .bsFormItemLabel{
+	margin: 6px 0;
+	color: #313234;
+	float: left;
+	width: 150px;
+}
+.bsContainer .bsPreviewForm .bsFormRow .bsFormItemLabel{
+	margin-top: 0px;
+}
+.bsContainer .bsFormRow .bsFormItemLabel .bsFormStar{
+	color: #dc475b;
+}
+.bsContainer .bsFormRow .bsFormItemValue{
+	overflow: hidden;
+}
+.bsContainer .bsCheckoutForm .bsHeading,
+.bsContainer .bsPreviewForm .bsHeading{
+	color: #2b3034;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.bsContainer .bsCheckoutForm .bsLine,
+.bsContainer .bsPreviewForm .bsLine{
+	background-color: #d2c8c9;
+	height: 1px;
+	width: 100%;
+	margin-bottom: 18px;
+}
+/* Layout */
+.bsContainer{
+	margin: 0 auto;
+	width: 100%;
+}
+.bsContainer .bsContainerInner{
+	background-color: #f9f8f6;
+	padding: 18px 12px 18px 12px;
+	border: 1px solid #d2c8c9;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top: none;
+}
+.bsContainer .bsContainerInner .bsSelectorSearchForm{
+	width: 340px;
+	float: left;
+	margin-right: 40px;
+}
+.bsContainer .bsContainerInner .bsSearchContent{
+	min-height: 350px;
+	max-height: 400px;
+	overflow: auto; 
+}
+.bsContainer .bsContainerInner .bsSearchContent .bsContentImage{
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+.bsContainer .bsContainerInner .bsSearchContent .bsContentImage img{
+	max-width: 100%;
+}
+.bsContainer .bsContainerInner .bsSelectorSearchForm a.chosen-single{
+	text-decoration: none;
+}
+.bsContainer .bsContent{
+	color: #909598;
+	margin-bottom: 8px;
+	overflow: hidden;
+}
+.bsContainer .bsContent label{
+	display: block;
+	float: left;
+	margin-right: 10px;
+}
+.bsContainer .bsContent label span{
+	display: block;
+}
+.bsContainer .bsContent span{
+	color: #1a1d1f;
+}
+.bsContainer .bsBusContainer{
+	margin-bottom: 16px;
+	overflow: auto;
+	-ms-overflow-y: hidden;
+	overflow-y:hidden;
+	position: relative;
+}
+.bsContainer .bsBusContainer .bsTable{
+	min-width: 990px;
+}
+.bsContainer .bsMapContainer,
+.bsContainer .bsReturnMapContainer{
+	border: 1px solid #d1d0cb;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 14px;
+}
+.bsContainer .bsMapContainer .bsSystemMessage,
+.bsContainer .bsReturnMapContainer .bsSystemMessage{
+	margin: 10px;
+}
+.bsContainer .bsMapContainer .rect,
+.bsContainer .bsReturnMapContainer .rect{
+    cursor: pointer;
+    display: block;
+    font-size: 0.9em;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 1000;
+}
+.bsContainer .bsMapContainer .empty,
+.bsContainer .bsReturnMapContainer .empty {
+    background-color: #135E8D;
+    color: #FFFFFF;
+}
+.bsContainer .bsMapContainer .bs-booked,
+.bsContainer .bsReturnMapContainer .bs-return-booked{
+	background-color: #fe979b;
+}
+.bsContainer .bsMapContainer .bs-selected,
+.bsContainer .bsReturnMapContainer .bs-return-selected{
+	background-color: #5cccfa;
+}
+.bsContainer .bsMapContainer .bs-available,
+.bsContainer .bsReturnMapContainer .bs-return-available{
+	cursor: pointer;
+}
+
+.bsContainer .bsMapHolder,
+.bsContainer .bsReturnMapHolder{
+    position: relative;
+    overflow: auto;
+    overflow-y: hidden;
+    -ms-overflow-y: hidden;
+}
+.bsContainer .bsSelectedSeatsLabel,
+.bsContainer .bsReturnSelectedSeatsLabel{
+	color: #7b8489;
+	float: left;
+	margin-right: 16px;
+}
+.bsContainer a.bsReSelect,
+.bsContainer a.bsReturnReSelect{
+	float: left;
+}
+.bsContainer .bsSelectedSeatsLabel span,
+.bsContainer .bsReturnSelectedSeatsLabel span{
+	color: #5dc2ee;
+}
+.bsContainer .bsErrorMsg{
+	color: #e35259;
+	display: none;
+	margin-bottom: 12px;
+}
+.bsContainer em .bsError{
+	display: block;
+	color: #e35259;
+	padding-left: 150px;
+}
+.bsContainer .bsCheckErrorMsg{
+	display: none;
+	color: #e35259;
+}
+.bsContainer .bsCheckReturnErrorMsg{
+	display: none;
+	color: #e35259;
+}
+.bsContainer a.bsBusTooltip{
+	display: block;
+	height: 24px;
+	width: 24px;
+	background: url([URL]app/web/img/frontend/info.png) 0 0 no-repeat;
+}
+.bsBusTipsy{
+	width: 200px;
+}
+.bsBusTipsy .tipsy-inner{
+	margin-left: -1px;
+	width: 190px;
+	text-align: left;
+	max-width: 190px;
+}
+.bsContainer .bs-seats-legend{
+	overflow: hidden;
+	display: none;
+	margin-bottom: 10px;
+}
+.bsContainer .bs-seats-legend label{
+	display: block;
+	float: left;
+	margin-right: 20px;
+	line-height: 16px;
+}
+.bsContainer .bs-seats-legend label span{
+	width: 16px;
+	height: 16px;
+	float: left;
+	margin-right: 5px;
+}
+.bsContainer .bs-seats-legend label span.bs-available-seats{
+	background-color: #135E8D;
+}
+.bsContainer .bs-seats-legend label span.bs-selected-seats{
+	background-color: #5cccfa;
+}
+.bsContainer .bs-seats-legend label span.bs-booked-seats{
+	background-color: #fe979b;
+}
+.bsContainer a.bsDateNav{
+	color: #909598 !important;
+	text-decoration: none !important;
+}
+
+.bsContainer a.bsDateNav:hover{
+	text-decoration: underline !important;
+}
+
+
+.bsContainer .bsBookingDetail{
+	overflow: hidden;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+}
+.bsContainer .bsBookingDetail .bsOuterBox{
+	box-sizing: border-box;
+	width: 33.3333%;
+	float: left;
+}
+.bsContainer .bsBookingDetail .bsInnerBox{
+	box-sizing: border-box;
+	padding: 12px;
+	background-color: #ffffff;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 18px 12px 0px 12px;
+	width: 95%;
+	-webkit-box-shadow: 3px 3px 3px 0px rgba(237, 236, 234, 0.62);
+	-moz-box-shadow:    3px 3px 3px 0px rgba(237, 236, 234, 0.62);
+	box-shadow:         3px 3px 3px 0px rgba(237, 236, 234, 0.62);
+	height: 240px;
+}
+.bsContainer .bsBookingDetail .bsJourneyBox{
+	float: left;
+}
+.bsContainer .bsBookingDetail .bsTicketBox{
+	width: 100%;
+}
+.bsContainer .bsBookingDetail .bsPaymentBox{
+	float: right;
+}
+.bsContainer .bsBookingDetail .bsInnerBox label{
+	display: block;
+	color: #a9aaae;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 13px;
+}
+.bsContainer .bsBookingDetail .bsInnerBox .bsPair{
+	margin-bottom: 16px;
+	color: #9ea0a5;
+}
+.bsContainer .bsBookingDetail .bsInnerBox .bsPair span{
+	color: #1a1d1f;
+	font-weight: bold;
+}
+.bsContainer .bsBookingDetail .bsInnerBox .bsPairHorizontal{
+	margin-bottom: 22px;
+	color: #9ea0a5;
+	overflow: hidden;
+}
+.bsContainer .bsBookingDetail .bsInnerBox .bsPairHorizontal .bsTitle{
+	display: block;
+	float: left;
+	width: 110px;
+}
+.bsContainer .bsBookingDetail .bsInnerBox .bsPairHorizontal .bsContent{
+	display: block;
+	float: left;
+	font-weight: bold;
+	color: #1a1d1f;
+}
+/*****Responsive for Header**********/
+@media only screen and (max-width: 689px){
+	.bsHeaderSteps div.bsStep1,
+	.bsHeaderSteps div.bsStep2,
+	.bsHeaderSteps div.bsStep3,
+	.bsHeaderSteps div.bsStep4{
+		width: 25%;
+	}
+	.bsHeaderSteps div a.bsStepLink{
+		display: none;
+	}
+}
+
+/****************************************/
+
+/*****Responsive for Checkout form**********/
+@media only screen and (max-width: 450px){
+	.bsContainer .bsFormRow .bsFormItemLabel {
+		float: none;
+		width: auto;
+	}
+	.bsContainer em .bsError {
+	    color: #E35259;
+	    display: block;
+	    padding-left: 0px;
+	}
+}
+/****************************************/
+
+/*****Responsive for Search form**********/
+@media only screen and (max-width: 750px){
+	.bsContainer .bsContainerInner .bsSelectorSearchForm {
+	    float: none;
+	    margin-right: 0px;
+	    width: 100%;
+	    margin-bottom: 14px;
+	}
+	.bsContainer .bsContainerInner .bsSearchContent {
+	    width: 100%;
+	}
+}
+/****************************************/
+/*****Responsive for Detail box**********/
+@media only screen and (max-width: 550px){
+	.bsContainer .bsBookingDetail .bsOuterBox {
+	    width: 100%;
+	    margin-bottom: 12px;
+	}
+	.bsContainer .bsBookingDetail .bsInnerBox {
+		width: 100%;
+		padding-bottom: 14px;
+		height: auto;
+	}
+	.bsContainer .bsBookingDetail .bsJourneyBox{
+		float: none;
+	}
+	.bsContainer .bsBookingDetail .bsPaymentBox{
+		float: none;
+	}
+}
+/****************************************/

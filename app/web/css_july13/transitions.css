@@ -1,0 +1,10 @@
+/* ==========================================================================
+	#Transitions
+========================================================================== */
+#pjWrapper .btn,
+#pjWrapper .pjBsForm .form-control,
+#pjWrapper .pjBsNav .dropdown-menu a,
+#pjWrapper .pjBsForm .pjBsDatePicker .input-group-addon,
+#pjWrapper .pjBsFormTickets .pjBsFormHead .pjBsDepartureDate dd a,
+#pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsSeatsContainer .pjBsSeat,
+#pjWrapper .pjBsForm .checkbox a { -webkit-transition: all .5s ease-in-out; -moz-transition: all .5s ease-in-out; -ms-transition: all .5s ease-in-out; -o-transition: all .5s ease-in-out; transition: all .5s ease-in-out; }

@@ -1,0 +1,2070 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,300&display=swap');
+body {
+    font-family: Poppins, Arial sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #828282;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+h1 {
+    font-size: 60px
+}
+
+h2 {
+    color: #111;
+    font-weight: 300;
+    margin-bottom: 30px
+}
+
+h3,
+h4,
+h5 {
+    color: #333c4d;
+    font-weight: 400;
+    margin-bottom: 20px
+}
+
+p {
+    font-family: Poppins, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    color: #828282;
+    padding-bottom: 15px
+}
+
+@font-face {
+    font-family: FontAwesome;
+    src: local('FontAwesome')
+}
+
+ul li {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    line-height: 27px;
+    list-style-type: none;
+    color: #828282
+}
+
+a {
+    color: #828282
+}
+
+a:hover {
+    color: #0785f2
+}
+
+a h4:hover {
+    text-decoration: underline
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+.branding img#logo {
+    max-width: initial;
+    margin-left: -15px
+}
+button{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.clear {
+    clear: both
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.caption {
+    text-align: center;
+    margin-bottom: 70px
+}
+
+.btn-cta-primary {
+    color: #fff !important;
+    padding: 15px 30px !important;
+    border-radius: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    transition: all .2s ease-in-out;
+    position: relative;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+	letter-spacing: 0.5px;
+	
+}
+
+.btn-cta-blue {
+    background-color: #0785f2;
+	letter-spacing: 0.5px;
+}
+
+.btn-cta-blue:hover, .btn-cta-blue:focus {
+    background-color: #fff;
+    color: #0785f2 !important
+}
+
+a.more {
+    transition: all .2s ease-in-out;
+    font-size: 14px !important;
+    margin-top: 10px;
+    font-weight: 400
+}
+
+a.more:hover * {
+    color: #0785f2;
+    padding-left: 10px
+}
+
+a.more i.fa {
+    font-size: 15px !important;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: all .2s ease-in-out
+}
+
+a.more i.fa:hover {
+    color: #009be3
+}
+
+#top-nav {
+    transition: all .2s linear 0s
+}
+
+.navbar-fixed-top {
+    background-color: transparent;
+    border: none
+}
+
+.navbar-fixed-top li a {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    transition: color .3s, border .3s
+}
+
+.navbar-fixed-top .navbar-nav .activenav a {
+    color: #FFF;
+    border-bottom: 1px solid #FFF
+}
+
+.navbar-nav > li > a {
+    border-bottom: 1px solid transparent;
+    transition: color .3s, border .3s
+}
+
+.navbar-fixed-top .navbar-nav > li > a:hover {
+    border-bottom: 1px solid #999999
+}
+
+.fixed-header {
+    background: #fff !important;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .1)
+}
+
+.fixed-header .navbar-nav > li > a {
+    color: #999999;
+    opacity: 1
+}
+
+.fixed-header .navbar-nav .activenav a {
+    color: #222 !important;
+    border-bottom: 1px solid #0785f2
+}
+
+.fixed-header .navbar-nav .activenav a:hover {
+    border-bottom: 1px solid #0785f2
+}
+
+.fixed-header .navbar-nav > li > a:hover {
+    border-bottom: 1px solid #111
+}
+
+#top-nav.navbar-scroll-changed {
+    background: 0 0;
+    margin: 0 auto;
+    border: 0;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.30);
+    height: 700px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+
+.hero-image {
+    /*margin-bottom: 70px*/
+}
+
+.hero-image #home {
+    background: url(https://mazhandufamilybus.com/app/web/img/home-hero-2.jpg) center no-repeat;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden
+}
+
+.main-message {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    width: 100%
+}
+
+.main-message h1 {
+    font-family: Poppins, Arial sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 70px
+}
+
+.title p {
+    font-size: 14px;
+    color: #9d9d9d
+}
+
+.title h2 {
+    margin-bottom: 15px !important
+}
+
+p.description {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center !important;
+    padding-bottom: 5px;
+    max-width: 450px;
+    margin: 0 auto
+}
+
+p.description-image {
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: .4px;
+    padding: 15px 230px;
+    line-height: 25px
+}
+
+.zig-zag {
+    margin-bottom: 100px
+}
+
+.zig-zag h2 {
+    margin-top: 70px
+}
+
+.zig-zag-right h2,
+.zig-zag-right p {
+    text-align: right
+}
+
+#agents {
+    margin-bottom: 0px;
+    padding-top: 50px !important;
+    background-color: #f6f8fa;
+	    padding-bottom: 30px!important;
+}
+
+#my-ticket {
+    margin-bottom: 0px;
+    padding-top: 50px;
+    background-color: #5e6768
+}
+
+#my-ticket h2 {
+    color: #fff;
+}
+
+.my-ticket-span {
+    color: #fff;
+}
+#my-ticket .chzn-single {
+    height:48px;
+}
+
+#features {
+    margin-bottom: 70px;
+    padding-top: 50px;
+    background-color: #f6f8fa
+}
+
+#features i.fa {
+    font-size: 50px;
+    color: #3476FF;
+    position: relative;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+#features h3 {
+    color: #222
+}
+
+#features .caption p {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+#testimonials .carousel-indicators li {
+    background-color: #000;
+    background-color: rgba(70, 70, 70, .25)
+}
+
+#testimonials .carousel-indicators .active {
+    background-color: transparent;
+    border: 2px solid #0785f2
+}
+
+.carousel-inner .item {
+    min-height: 320px
+}
+
+#testimonials .carousel-inner blockquote {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0;
+    font-weight: 300;
+    color: #111
+}
+
+.carousel-indicators {
+    top: 110%
+}
+
+a.company img {
+    margin: 0 auto 30px;
+    width: auto
+}
+
+span.author {
+    font-size: 13px;
+    color: #828282 !important;
+    font-weight: 500
+}
+
+span.author img {
+    display: block;
+    height: 54px;
+    margin: 30px auto 10px;
+    width: auto
+}
+
+#services a img {
+    transition: all .2s ease-in-out;
+    border: 2px solid #fff
+}
+
+#services a img:hover {
+    border: 2px solid #0785f2
+}
+
+#plan {
+    padding-bottom: 70px
+}
+
+.price-table {
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #d6d6d6;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    margin-left: 0
+}
+
+.price-table i.fa {
+    color: #d6d6d6;
+    font-size: 40px
+}
+
+.price-table h6 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #828282;
+    font-weight: 400
+}
+
+span.price {
+    font-size: 30px;
+    font-weight: 300;
+    color: #333c4d
+}
+
+span.dollar {
+    vertical-align: top;
+    font-size: 17px !important;
+    display: inline-block;
+    margin-top: 15px;
+    color: #222
+}
+
+.price-table ul.features {
+    margin-top: 10px
+}
+
+.price-table ul.features li {
+    font-size: 14px;
+    line-height: 37px
+}
+
+.price-table:hover {
+    background-color: #3476FF;
+    margin-top: -20px;
+    z-index: 10;
+    border: none
+}
+
+.price-table:hover * {
+    color: #fff !important
+}
+
+#contact h2 {
+    color: #fff
+}
+
+
+.news .nmNewsList {
+    float: left;
+    width: 100%;
+}
+.news .nmNewsList .nmNewsBox.nmFullNews {
+    margin: 0 0 40px 0;
+    padding: 0 0 40px 0;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.news .nmNewsList .nmNewsBox.nmFullNews .nmNewsDetail {
+    float: left;
+    width: 100%;
+    background: no-repeat;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+/*    display: flex;*/
+}
+
+.news .nmNewsList .nmNewsBox.nmFullNews .nmNewsDetail img.nmNewsThumb {
+    width: 45%;
+    height: auto;
+    margin: 0;
+    max-height: 350px;
+    object-fit: cover;
+    float: left;
+}
+
+.news .nmNewsList .nmNewsBox.nmFullNews .nmNewsDetail .nmDescription {
+    float: right;
+    width: 50%;
+    margin-left: 5%;
+    padding: 25px 0 !important;
+}
+
+.news .nmNewsList .nmNewsBox.nmFullNews .nmNewsDetail .nmDescription label.nmTitle {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 36px;
+    margin-bottom: 20px;
+    color: #000 !important;
+    float: left;
+    width: 100%;
+    font-family: 'Source Sans Pro', Arial, Helvetica sans-serif!important;
+}
+.news .nmNewsList .nmNewsBox.nmFullNews .nmNewsDetail .nmDescription p {
+    color: #000;
+    line-height: 25px;
+    margin-top: 0;
+    float: left;
+    width: 100%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+.news .nmNewsList .nmNewsBox.nmFullNews .nmPublishedDate {
+    padding: 0;
+    width: 150px;
+    background: no-repeat;
+    color: #000;
+    margin: 0;
+    height: auto;
+    float: left;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: 400;
+    text-align: left;
+    font-family: 'Source Sans Pro', Arial, Helvetica sans-serif!important;
+}
+.news .nmNewsList .nmNewsBox.nmFullNews .nmPublishedDate span {
+    font-size: 17px;
+    font-weight:400;
+}
+.news .nmNewsList .nmNewsBox.nmFullNews .nmPublishedDate br {
+    display: none;
+}
+.news .nmNewsList .nmNewsBox.nmFullNews:hover {
+    background: none !important;
+}
+.news .nmNewsList .nmNewsBox.nmFullNews .nmNewsDetail .nmDescription .page {
+    float: left;
+    width: 100%;
+}
+
+.news .nmNewsList .nmNewsBox.nmFullNews .nmNewsDetail .nmDescription .page .section {
+    float: left;
+    width: 100%;
+}
+
+.news .nmNewsList .nmNewsBox.nmFullNews .nmNewsDetail .nmDescription .page .section .layoutArea {
+    float: left;
+    width: 100%;
+}
+
+.news .nmNewsList .nmNewsBox.nmFullNews .nmNewsDetail .nmDescription .page .section .layoutArea .column {
+    float: left;
+    width: 100%;
+}
+
+.news .nmNewsList .nmNewsBox.nmFullNews .nmNewsDetail .nmDescription .page .section .layoutArea .column ol {
+    float: left;
+    width: 100%;
+    padding-left: 0;
+    list-style: none;
+}
+
+.news .nmNewsList .nmNewsBox.nmFullNews .nmNewsDetail .nmDescription .page .section .layoutArea .column ol li {
+    float: left;
+    width: 100%;
+}
+.nmDetailContainer .nmDetail img.nmNewsImage {
+    width: 45% !important;
+    margin: 0;
+    max-height: 350px;
+    float: left;
+    position: absolute;
+    top: 0;
+}
+
+
+
+.nmDetailContainer .nmDetail p {
+    float: right;
+    width: 50%;
+    margin-left: 5%;
+    padding: 0;
+    color: #000;
+    line-height: 25px;
+    margin-top: 0;
+	font-family: 'Source Sans Pro', Arial, Helvetica sans-serif!important;
+    font-size: 15px;
+}
+
+.nmDetailContainer .nmTitle {
+    float: right;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 30px !important;
+    font-weight:300 !important;
+    line-height: 36px;
+    margin-bottom: 15px !important;
+    color: #000 !important;
+	font-family: 'Source Sans Pro', Arial, Helvetica sans-serif!important;
+}
+
+.nmDetailContainer .nmNewsBack {
+    float: right;
+    width: 50%;
+    margin-left: 5%;
+    color: #3476ff;
+   margin-bottom: 15px !important;
+}
+.nmDetailContainer .nmDate label {
+    color: #12171A;
+        font-family: 'Source Sans Pro', Arial, Helvetica sans-serif!important;
+    font-weight: 400;
+}
+.nmDetailContainer .nmDate {
+    float: right;
+    width: 50%;
+    margin-left: 5%;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000;
+	font-family: 'Source Sans Pro', Arial, Helvetica sans-serif!important;
+    font-weight: 400;
+}
+
+.nmDetailContainer .nmDetail {
+    float: left;
+    width: 100%;
+    min-height: 250px;
+}
+
+.nmDetailContainer .nmNewsBack a {
+    color: #3476ff;
+    font-size: 16px;
+	font-family: 'Source Sans Pro', Arial, Helvetica sans-serif!important;
+    text-transform: uppercase;
+}
+.nmDetail .page .layoutArea ol {
+    padding-left: 0;
+}
+#list_agents .col-lg-4.col-md-6.col-sm-6, #list_agents .col-lg-4.col-md-4.col-sm-3  {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 0 1% 20px 1% !important;
+    height: auto !important;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.2);
+    width: 31.30%;
+}
+
+#list_agents .col-lg-4.col-md-6.col-sm-6 .agent_name, #list_agents .col-lg-4.col-md-4.col-sm-3 .agent_name {
+    color: #3476fe;
+    font-size: 21px;
+    margin: 0 0 20px 0;
+}
+
+#list_agents .col-lg-4.col-md-6.col-sm-6 > div, #list_agents .col-lg-4.col-md-4.col-sm-3 > div {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+}
+
+#list_agents .row {
+    width: 100% !important;
+}
+#list_agents {
+    margin-bottom: 25px;
+    margin-top: 0;
+    float: left;
+    width: 100%;
+}
+#agents .title {
+    float: left;
+    width: 100%;
+}
+#agents .title p.description {
+    max-width: 100%;
+    text-align: left !important;
+    width: 100% !important;
+	padding-left: 15px;
+    padding-right: 15px;
+	float: left;
+}
+#agents p.description button.btn.btn-primary.pull-right {
+    margin-right: auto !important;
+}
+#agents p.description button.btn.btn-primary.pull-right {
+    margin-right: auto !important;
+    height: 50px;
+    background: #3476ff;
+    border: 1px solid #3476fe;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    width: 185px;
+	-webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+	letter-spacing: 0.5px;
+}
+#agents p.description button.btn.btn-primary.pull-right:hover, #agents p.description button.btn.btn-primary.pull-right:focus{
+    background: #fff;
+    border: 1px solid #3476fe;
+    color: #3476ff;
+	    outline: none;
+}
+#my-ticket p .my-ticket-span b {
+    font-weight: 300;
+}
+
+#my-ticket-form {
+    display: inline-block;
+    width: 40%;
+}
+
+#my-ticket-form .col-lg-6.col-md-6.col-sm-6 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+#my-ticket-form .col-lg-6.col-md-6.col-sm-6 .chzn-container.chzn-container-single {
+    width: 100% !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+div#mt_phone_country_chzn {}
+
+#my-ticket-form .col-lg-6.col-md-6.col-sm-6 .chzn-container.chzn-container-single a.chzn-single {
+    background: #fff !important;
+    margin-bottom: 20px;
+    line-height: 48px;
+    font-weight: 500!important;
+    font-size: 17px;
+    border: none !important;
+    box-shadow: none !important;
+}
+#my-ticket-form {
+    display: inline-block;
+    width: 40%!important;
+}
+#my-ticket p#my-ticket-desc {
+    margin-bottom: 10px;
+}
+#my-ticket-form .col-lg-6.col-md-6.col-sm-6 .chzn-container.chzn-container-single a.chzn-single > div {
+    width: 25px;
+}
+
+#my-ticket-form .col-lg-6.col-md-6.col-sm-6 .chzn-container.chzn-container-single a.chzn-single > div b {
+    background-position: -18px 11px!important;
+}
+
+#my-ticket-form .col-lg-6.col-md-6.col-sm-6 input.form-control {
+    width: 100%;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+#my-ticket .title button.btn.btn-primary {
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    color: #3476ff;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 1px solid #3476ff;
+	letter-spacing: 0.5px;
+}
+
+#my-ticket .title button.btn.btn-primary:hover, #my-ticket .title button.btn.btn-primary:focus {
+    color: #fff;
+    background: #3476ff;
+    border: 1px solid #fff;
+	    outline: none;
+}
+#my-ticket p, #my-ticket p span {
+    font-weight: 300;
+}
+
+
+
+#services #pjWrapperBusReservation_theme1 {float: left;width: 100%;}
+
+#services #pjWrapperBusReservation_theme1 .pjBsContainer {
+    padding: 0;
+}
+
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain {
+    background: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain header.pjBsHeader {
+    background: none;
+    border: none;
+}
+
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain header.pjBsHeader .btn-group.pull-left.pjBsNav .btn.dropdown-toggle {
+    border: none;
+    background: #fff;
+    padding: 0;
+    color: #000;
+    font-weight: 300;
+    font-family: 'Source Sans Pro', Arial, Helvetica sans-serif;
+    font-size: 32px;
+    text-transform: capitalize;
+    cursor: default;
+	letter-spacing: 0.5px;
+}
+
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain header.pjBsHeader .btn-group.pull-left.pjBsNav .btn.dropdown-toggle span.caret {
+    display: none;
+	
+}
+
+
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain header.pjBsHeader .btn-group.pjBsNavLang button.btn.dropdown-toggle {
+    border: none;
+    background: #fff;
+    padding: 0;
+    cursor: default;
+	letter-spacing: 0.5px;
+}
+
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain header.pjBsHeader .btn-group.pjBsNavLang span.title {
+    color: #4b71b7;
+    font-weight: 300;
+    font-family: 'Source Sans Pro', Arial, Helvetica sans-serif;
+    font-size: 20px;
+    text-transform: capitalize;
+	letter-spacing: 0.5px;
+}
+
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain header.pjBsHeader .btn-group.pjBsNavLang button.btn.dropdown-toggle img {
+    display: none;
+}
+
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain header.pjBsHeader .btn-group.pjBsNavLang button.btn.dropdown-toggle span.caret {
+    display: none;
+}
+#pjWrapperBusReservation_theme1 .btn-group.pjBsFormNav .btn.btn-default.pjBrSwitch {
+    height: 50px;
+    padding: 0 15px;
+    line-height: 50px;
+    background: #fff;
+    border-color: #b3b3b3;
+    font-family: 'Source Sans Pro', Arial, Helvetica sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #666;
+	letter-spacing: 0.5px;
+}
+#pjWrapperBusReservation_theme1 .btn-group.pjBsFormNav .btn.btn-default.pjBrSwitch.active, #pjWrapperBusReservation_theme1 .btn-group.pjBsFormNav .btn.btn-default.pjBrSwitch:hover, #pjWrapperBusReservation_theme1 .btn-group.pjBsFormNav .btn.btn-default.pjBrSwitch:focus {
+    background: #3677ff!important;
+    border-color: #3677ff!important;
+    color: #fff !important;
+	    outline: none;
+}
+#pjWrapperBusReservation_theme1 .form-group.has-success {
+    margin-bottom: 30px;
+}
+#pjWrapperBusReservation_theme1 .form-group label {
+    color: #000 !important;
+    font-family: 'Source Sans Pro', Arial, Helvetica sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+#pjWrapperBusReservation_theme1 .form-group input.form-control, #pjWrapperBusReservation_theme1 .select2-container--default .select2-selection--single.pjBsSelect2Preview {
+    height: 50px;
+    box-shadow: 0px 3px 8px rgba(77,113,183,0.2);
+    line-height: 50px;
+    padding: 0 15px;
+    border-color: #b3b3b3 !important;
+}
+#pjWrapperBusReservation_theme1 .form-group span.input-group-addon span.glyphicon.glyphicon-calendar {
+    color: #999;
+}
+#pjWrapperBusReservation_theme1 .select2-container--default .select2-selection--single.pjBsSelect2Preview span.select2-selection__arrow {
+    height: 100%;
+    width: 30px;
+}
+#pjWrapperBusReservation_theme1 .select2-container--default .select2-selection--single.pjBsSelect2Preview span.select2-selection__arrow b {
+    border-color: #999 transparent transparent transparent;
+}
+#pjWrapperBusReservation_theme1 .select2-container--default .select2-selection--single.pjBsSelect2Preview span.select2-selection__rendered {
+    padding: 0;
+    height: 100%;
+    line-height: 50px;
+    color: #666;
+}
+#pjWrapperBusReservation_theme1 .form-group {
+    margin-bottom: 30px !important;
+}
+
+#pjWrapperBusReservation_theme1 .form-group.pjBsFormActions button.btn.btn-primary, #pjWrapperBusReservation_theme1 footer.pjBsFormFoot .pjBsFormActions button.btn.btn-primary.pull-right{
+    height: 50px;
+    padding: 0 30px;
+    line-height: 50px;
+    font-family: 'Source Sans Pro', Arial, Helvetica sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #3677ff!important;
+    border-color: #3677ff!important;
+    color: #fff !important;
+    box-shadow: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	letter-spacing: 0.5px;
+}
+#pjWrapperBusReservation_theme1 .form-group.pjBsFormActions button.btn.btn-primary:hover, #pjWrapperBusReservation_theme1 footer.pjBsFormFoot .pjBsFormActions button.btn.btn-primary.pull-right:hover{
+    background: #333 !important;
+    border-color: #333 !important;
+    color: #fff !important;
+    box-shadow: none;
+}
+#pjWrapperBusReservation_theme1 footer.pjBsFormFoot .pjBsFormActions a.btn.btn-default.pull-left{
+    height: 50px;
+    padding: 0 30px;
+    line-height: 50px;
+    font-family: 'Source Sans Pro', Arial, Helvetica sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    background:  #fff!important;
+    border-color: #3677ff!important;
+    color: #d8a429 !important;
+    box-shadow: none;
+		-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	letter-spacing: 0.5px;
+}
+#pjWrapperBusReservation_theme1 footer.pjBsFormFoot .pjBsFormActions a.btn.btn-default.pull-left:hover, #pjWrapperBusReservation_theme1 footer.pjBsFormFoot .pjBsFormActions a.btn.btn-default.pull-left:focus{
+    background: #333 !important;
+    border-color: #333 !important;
+    color: #fff !important;
+	    outline: none;}
+#pjWrapperBusReservation_theme1 .form-group.pjBsFormActions button.btn.btn-primary:hover, #pjWrapperBusReservation_theme1 footer.pjBsFormFoot .pjBsFormActions button.btn.btn-primary.pull-right:hover, #pjWrapperBusReservation_theme1 .form-group.pjBsFormActions button.btn.btn-primary:hover, #pjWrapperBusReservation_theme1 footer.pjBsFormFoot .pjBsFormActions button.btn.btn-primary.pull-right:focus, #pjWrapperBusReservation_theme1 .form-group.pjBsFormActions button.btn.btn-primary:focus, #pjWrapperBusReservation_theme1 footer.pjBsFormFoot .pjBsFormActions button.btn.btn-primary.pull-right:fous, #pjWrapperBusReservation_theme1 .form-group.pjBsFormActions button.btn.btn-primary:focus{
+    background: #333 !important;
+    border-color: #333 !important;
+    color: #fff !important;
+	    outline: none;
+}
+#pjWrapperBusReservation_theme1 aside.col-lg-6.col-md-6.col-sm-6.col-xs-12.pjBsFormAside {
+    display: none;
+}
+#pjWrapperBusReservation_theme1 .pjBsFormContent .col-lg-12.col-md-12.col-sm-12.col-xs-12 {
+    width: 50%;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormContent .row.pjBsSelectsRow select.form-control.pjBsAutocomplete{
+	height: 50px;
+    box-shadow: 0px 3px 8px rgba(77,113,183,0.2) !important;
+    line-height: 50px;
+    padding: 0 15px;
+    border-color: #b3b3b3 !important;
+}
+#pjWrapperBusReservation_theme1 .pjBsMain .pjBsBody .pjBsForm.pjBsFormTickets header.pjBsFormHead p.pjBsFormTitle {
+    color: #000 !important;
+    font-size: 22px;
+    font-weight: 700;
+}
+#pjWrapperBusReservation_theme1 .pjBsMain .pjBsBody .pjBsForm.pjBsFormTickets header.pjBsFormHead p.pjBsFormTitle strong {
+    color: #000 !important;
+	font-size: 22px;
+}
+#pjWrapperBusReservation_theme1 .pjBsMain .pjBsBody .pjBsForm.pjBsFormTickets header.pjBsFormHead dt {
+    display: none;
+}
+#pjWrapperBusReservation_theme1 .pjBsMain .pjBsBody .pjBsForm.pjBsFormTickets header.pjBsFormHead dl.dl-horizontal.pjBsDepartureDate.pull-right {
+    float: left;
+    width: 100%;
+}
+#pjWrapperBusReservation_theme1 .pjBsMain .pjBsBody .pjBsForm.pjBsFormTickets header.pjBsFormHead dl.dl-horizontal.pjBsDepartureDate.pull-right a.bsDateNav:nth-child(1) {
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    background: url("https://mazhandufamilybus.com/app/web/img/left-arrow.png") no-repeat center center;
+    float: left;
+}
+#pjWrapperBusReservation_theme1 .pjBsMain .pjBsBody .pjBsForm.pjBsFormTickets header.pjBsFormHead dl.dl-horizontal.pjBsDepartureDate.pull-right a.bsDateNav:nth-child(3) {
+    font-size: 0;
+    width: 40px;
+    height: 40px;
+    background: url("https://mazhandufamilybus.com/app/web/img/right-arrow.png") no-repeat center center;
+    float: left;
+}
+#pjWrapperBusReservation_theme1 .pjBsMain .pjBsBody .pjBsForm.pjBsFormTickets header.pjBsFormHead dl.dl-horizontal.pjBsDepartureDate.pull-right strong {
+    float: left;
+    margin: 0 15px;
+    line-height: 40px;
+    font-size: 22px;
+    color: #000;
+}
+#pjWrapperBusReservation_theme1 .pjBsFormBody .panel.panel-default.pjBsSeats.bsBusContainer {
+    border: none;
+    background: none !important;
+	box-shadow: none !important;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormBody .panel.panel-default.pjBsSeats.bsBusContainer header.panel-heading.pjBsSeatsHead {
+    padding: 0;
+    background: no-repeat;
+    border: none;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormBody .panel.panel-default.pjBsSeats.bsBusContainer header.panel-heading.pjBsSeatsHead p.panel-title {
+    color: #000;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item {
+    padding-left: 0;
+    padding-right: 0;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow p.pjBsBusTitle {
+    color: #000;
+    font-size: 22px;
+    font-weight: 500;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow p.pjBsBusAvailableSeats {
+    font-size: 22px;
+    color: #3677ff;
+}
+
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow p.pjBsBusDate {
+    color: #000;
+    font-size: 22px;
+    font-weight: normal;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses .pjBsRowInline .input-group select.form-control {
+    height: 50px;
+    box-shadow: 0px 3px 8px rgba(77,113,183,0.2) !important;
+    line-height: 50px;
+    padding: 0 15px;
+    border-color: #b3b3b3 !important;
+}
+
+
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses .pjBsRowInline .input-group span.input-group-addon {
+    height: 50px;
+    box-shadow: 0px 3px 8px rgba(77,113,183,0.2) !important;
+    line-height: 48px;
+    padding: 0 15px;
+    border-color: #b3b3b3 !important;
+    color: #4b71b7;
+}
+#pjWrapperBusReservation_theme1 .pjBsSeats .pjBsListBusses .form-group label {
+    font-weight: 600!important;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item {
+    background: none !important;
+    padding-top: 30px;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item {
+    background: none !important;
+    padding-top: 30px;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsSeats .pjBsPickupSeatsBody .pjBsListSeats .pjBsChosenSeats p {
+    color: #000;
+	font-weight: 500;
+}
+#pjWrapperBusReservation_theme1 .pjBsSeats .pjBsSeatsBody .pjBsChosenSeats dl dd {
+    color: #3677ff!important;
+}
+#pjWrapperBusReservation_theme1 .pjBsSeats .pjBsPickupSeatsBody .pjBsListSeats .pjBsChosenSeats p strong {
+    color: #3677ff;
+	font-weight: 500;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsSeats .pjBsPickupSeatsBody .pjBsListSeats .pjBsChosenSeats dl.dl-horizontal dt {
+    color: #000;
+	font-weight: 500;
+}
+#pjWrapperBusReservation_theme1 .pjBsSeats  .panel-body.pjBsSeatsBody.pjBsPickupSeatsBody {
+    padding: 0;
+}
+footer.pjBsFormFoot .pjBsTotalPrice strong span.bsTitle {
+    font-weight: 700;
+    color:#3677ff;
+    font-size: 28px;
+}
+#pjWrapperBusReservation_theme1 .pjBsSeats .pjBsListBusses .pjBsBusTitle a .glyphicon.glyphicon-question-sign{
+    color: #3677ff;
+	}
+ #pjWrapperBusReservation_theme1 footer.pjBsFormFoot .pjBsFormActions{
+ 	margin-top:20px;
+}
+ #pjWrapperBusReservation_theme1 footer.panel-footer.pjBsSeatsFoot.pjBsPickupSeatsFoot {
+    display: none!important;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses, #pjWrapperBusReservation_theme1 .pjBsSeats .pjBsSeatsFoot {
+    border: none !important;
+    box-shadow: none!important;
+}
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormHead .pjBsFormTitle {
+    color: #000!important;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox {
+    width: 100%;
+    background: #fff;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner {
+    background: #fff !important;
+    box-shadow: none;
+    padding: 0 !important;
+    min-height: inherit;
+    padding-bottom: 30px !important;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #ddd;
+    float: left;
+    width: 100%;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData {
+    width: 20%;
+    float: left;
+    padding-right: 15px;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData:nth-child(5) {
+    width: 40%;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dt {
+    color: #000;
+    font-size: 17px;
+    padding: 15px 0;
+    font-weight: 600;
+    float: left;
+    width: 100%;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dd {
+    float: left;
+    width: 100%;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dd a.btn.btn-link.bsChangeDate, #pjWrapperBusReservation_theme1 .pjBsFormBoxes .pjBsFormBox .pjBsFormBoxData p a.btn.btn-link.bsChangeSeat  {
+    color: #4b71b7;
+    font-size: 18px;
+		-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	letter-spacing: 0.5px;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dd a.btn.btn-link.bsChangeDate:hover, #pjWrapperBusReservation_theme1 .pjBsFormBoxes .pjBsFormBox .pjBsFormBoxData p a.btn.btn-link.bsChangeSeat:hover, #pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dd a.btn.btn-link.bsChangeDate:focus, #pjWrapperBusReservation_theme1 .pjBsFormBoxes .pjBsFormBox .pjBsFormBoxData p a.btn.btn-link.bsChangeSeat:focus{
+    color: #666;
+	}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner p.pjBsFormBoxTitle {
+    color: #000;
+    font-size: 28px;
+    font-weight: 500;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dd p .pj-form-field-icon-text-small {
+    font-size: 22px;
+    color: #000 !important;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dd p {
+    font-size: 22px;
+    color: #000 !important;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox:nth-child(2) dl.dl-horizontal.pjBsFormBoxData {
+    width: 35%;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox:nth-child(2) dl.dl-horizontal.pjBsFormBoxData dd {
+    color: #4b71b7;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox:nth-child(3) .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData:nth-child(4) dd {
+    color: #4b71b7;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dd p .pj-form-field-icon-text-small {
+    font-size: 22px;
+    color: #000 !important;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dd p {
+    font-size: 22px;
+    color: #000 !important;
+}
+
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox:nth-child(2) dl.dl-horizontal.pjBsFormBoxData {
+    width: 35%;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox:nth-child(2) dl.dl-horizontal.pjBsFormBoxData dd {
+    color: #3677ff;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox:nth-child(3) .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData:nth-child(4) dd {
+    color: #3677ff;
+}
+
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody p.pjBsFormTitle {
+    color: #000;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal {
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group {
+    width: 35.5%;
+    float: left;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group label.control-label {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group select.form-control {
+    height: 50px !important;
+    box-shadow: 0px 3px 8px rgba(77,113,183,0.2);
+    line-height: 50px;
+    padding: 0 15px;
+    border-color: #b3b3b3 !important;
+    float: left;
+    width: 100%;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group .col-lg-5.col-md-5.col-sm-12.col-xs-12 .chzn-container.chzn-container-single a.chzn-single > div {
+    top: 10px;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group .col-lg-5.col-md-5.col-sm-12.col-xs-12 {
+    width: 100%;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group .col-lg-5.col-md-5.col-sm-12.col-xs-12 .chzn-container.chzn-container-single a.chzn-single {
+    height: 50px !important;
+    box-shadow: 0px 3px 8px rgba(77,113,183,0.2);
+    line-height: 50px;
+    padding: 0 15px;
+    border-color: #b3b3b3 !important;
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group .col-lg-10.col-md-9.col-sm-8.col-xs-12 .chzn-container.chzn-container-single a.chzn-single {
+    height: 50px !important;
+    box-shadow: 0px 3px 8px rgba(77,113,183,0.2);
+    line-height: 50px;
+    padding: 0 15px;
+    border-color: #b3b3b3 !important;
+    float: left;
+    width: 100%;
+    background: #fff;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm footer.pjBsFormFoot {
+	float: left;
+    width: 100%;
+    border: none !important;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm footer.pjBsFormFoot .form-group {
+    padding: 0;
+    border: none !important;
+    float: left;
+    width: 100%;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm footer.pjBsFormFoot .form-group p.pjBsFormTitle {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm footer.pjBsFormFoot .form-group .checkbox {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm footer.pjBsFormFoot .form-group .checkbox label input[type="checkbox"] {
+    margin-top: 5px;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm footer.pjBsFormFoot .form-group .checkbox label a {
+    color: #3677ff;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm footer.pjBsFormFoot .form-group .checkbox label a:hover{
+    color: #666;
+}
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormBody {
+    float: left;
+    width: 100%;
+}
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormHead {
+    padding-bottom: 15px;
+    float: left;
+    width: 100%;
+}
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormHead .row.pjBsFormBoxes {
+    padding-bottom: 0 !important;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsReturnRow p.pjBsBusTitle, #pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsReturnRow p.pjBsBusDate {
+    color: #000!important;
+    font-size: 22px!important;
+    font-weight: 400!important;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsReturnRow p.pjBsBusAvailableSeats {
+    color: #4b71b7!important;
+    font-size: 22px!important;
+    font-weight: 400!important;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group:nth-child(4) .col-lg-5.col-md-5.col-sm-12.col-xs-12 {
+    width: 65%;
+    float: left;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group:nth-child(4) .col-lg-5.col-md-5.col-sm-12.col-xs-12 .chzn-container.chzn-container-single {
+    width: 100% !important;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group:nth-child(4) .col-lg-5.col-md-5.col-sm-12.col-xs-12:last-child {
+    width: 30%;
+    float: left;
+	padding-left: 0;
+	padding-right: 30px;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group .col-lg-10.col-md-9.col-sm-8.col-xs-12 {
+    width: 90%;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm footer.pjBsFormFoot .pjBsFormActions {
+    border: none;
+}
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout form {
+    float: left;
+    width: 100%;
+    border: none;
+}
+
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout form header.pjBsFormHead {
+    border: none;
+}
+
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout form header.pjBsFormHead p.pjBsFormTitle {
+    border: none;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormHead .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox {
+    width: 100%;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormHead .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner {
+    box-shadow: none;
+    background: #fff;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormHead .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner p.pjBsFormBoxTitle {
+    color: #000;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormHead .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData {
+    float: left;
+    width: 33%;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormHead .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dt {
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormHead .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData  dd {
+    float: left;
+    width: 100%;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormHead .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dd a.btn.btn-link.bsChangeDate, #pjWrapperBusReservation_theme1 .pjBsFormBoxes .pjBsFormBox .pjBsFormBoxData p a.btn.btn-link.bsChangeSeat {
+    color: #3677ff !important;
+    font-size: 18px;
+	letter-spacing: 0.5px;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormBody p.pjBsFormTitle {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.4;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormBody ul.list-unstyled.pjBsListPersonalData {
+    float: left;
+    width: 100%;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormBody ul.list-unstyled.pjBsListPersonalData li dl.dl-horizontal {}
+
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormBody ul.list-unstyled.pjBsListPersonalData li dl.dl-horizontal dt {
+    color: #000;
+    font-size: 17px;
+    font-weight: 600;
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormBody ul.list-unstyled.pjBsListPersonalData li dl.dl-horizontal dd {
+    float: left;
+    width: 100%;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormBody ul.list-unstyled.pjBsListPersonalData li {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormHead .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dd p {
+    float: left;
+    width: 100%;
+    padding: 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 15px;
+}
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout footer.pjBsFormFoot {
+    border: none;
+	float: left;
+    width: 100%;
+}
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout footer.pjBsFormFoot .pjBsFormMessages {
+    border: none !important;
+}
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout footer.pjBsFormFoot .pjBsFormActions {
+    border: none;
+}
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout footer.pjBsFormFoot .pjBsFormMessages .pjBrBookingMsg .bsSystemMessage {
+    color: #000;
+    font-size: 18px;
+}
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout footer.pjBsFormFoot .pjBsFormActions button.btn.btn-primary.pull-right {
+    background: #3677ff !important;
+    border-color: #3677ff !important;
+	letter-spacing: 0.5px;
+}
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout footer.pjBsFormFoot .pjBsFormActions a.btn.btn-default.pull-left {
+    border-color: #3677ff !important;
+    color: #3677ff !important;
+	letter-spacing: 0.5px;
+}
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout footer.pjBsFormFoot .pjBsFormActions button.btn.btn-primary.pull-right:hover, #services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout footer.pjBsFormFoot .pjBsFormActions button.btn.btn-primary.pull-right:focus, #services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout footer.pjBsFormFoot .pjBsFormActions a.btn.btn-default.pull-left:hover, #services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout footer.pjBsFormFoot .pjBsFormActions a.btn.btn-default.pull-left:focus, #services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout form.bsCheckoutForm footer.pjBsFormFoot .pjBsFormActions a.btn.btn-default.pull-left:hover, #services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout form.bsCheckoutForm footer.pjBsFormFoot .pjBsFormActions button.btn.btn-primary.pull-right:hover, #services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout form.bsCheckoutForm footer.pjBsFormFoot .pjBsFormActions button.btn.btn-primary.pull-right:focus{
+    background: #000 !important;
+    border-color: #000 !important;
+	outline:none !important;
+	color: #fff !important;
+}
+#pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormHead .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dd a.btn.btn-link.bsChangeDate:hover, #pjWrapperBusReservation_theme1 .pjBsFormBoxes .pjBsFormBox .pjBsFormBoxData p a.btn.btn-link.bsChangeSeat:hover{
+	color:#000 !important;
+}
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout form.bsCheckoutForm footer.pjBsFormFoot .pjBsFormActions button.btn.btn-primary.pull-right{
+    background: #3677ff!important;
+    border-color: #3677ff!important;
+	letter-spacing: 0.5px;
+}
+
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout form.bsCheckoutForm footer.pjBsFormFoot .pjBsFormActions a.btn.btn-default.pull-left {
+    border-color: #3677ff!important;
+    color: #d8a429 !important;
+	letter-spacing: 0.5px;
+}
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout form.bsCheckoutForm header.pjBsFormHead .row.pjBsFormBoxes .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dd a.btn.btn-link.bsChangeDate, #services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout form.bsCheckoutForm header.pjBsFormHead .row.pjBsFormBoxes .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData a.btn.btn-link.bsChangeSeat {
+    color: #3677ff!important;
+	letter-spacing: 0.5px;
+}
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout form.bsCheckoutForm header.pjBsFormHead .row.pjBsFormBoxes .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dd a.btn.btn-link.bsChangeDate:hover, #services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout form.bsCheckoutForm header.pjBsFormHead .row.pjBsFormBoxes .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData a.btn.btn-link.bsChangeSeat:hover{
+    color: #000 !important;
+}
+
+
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow .col-lg-8.col-lg-offset-4.col-md-8.col-md-offset-4.col-sm-12.col-xs-12 {
+    width: 15%;
+    margin-left: 0;
+    position: absolute;
+    top: -41px;
+}
+
+
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow .col-lg-2.col-md-2.col-sm-2.col-xs-4 {
+    width: 13.666667%;
+}
+
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow .col-lg-8.col-lg-offset-4.col-md-8.col-md-offset-4.col-sm-12.col-xs-12 .col-sm-4.col-xs-12.ticket_select {
+    padding: 0;
+}
+
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow .col-lg-8.col-lg-offset-4.col-md-8.col-md-offset-4.col-sm-12.col-xs-12 .col-sm-4.col-xs-12.ticket_select select.form-control.bsTicketSelect.bsTicketSelect-16 {
+    float: left;
+    width: 70px;
+    border-radius: 4px !important;
+}
+
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow .col-lg-8.col-lg-offset-4.col-md-8.col-md-offset-4.col-sm-12.col-xs-12 .col-sm-4.col-xs-12.ticket_select span.input-group-addon {
+    float: right;
+    border: none;
+    background: none !important;
+    box-shadow: none !important;
+    padding: 0;
+    margin-left: 15px;
+    font-size: 22px;
+    color: #3677ff;
+	line-height: normal;
+    white-space: normal;
+    text-align: left;
+	font-weight: bold;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow .col-lg-8.col-lg-offset-4.col-md-8.col-md-offset-4.col-sm-12.col-xs-12 .col-sm-4.col-xs-12.ticket_select span.input-group-addon span.pj-form-field-icon-text-small {
+    font-weight: normal;
+}
+#pjWrapperBusReservation_theme1 .pjBsFormBody .panel.panel-default.pjBsSeats.bsBusContainer header.panel-heading.pjBsSeatsHead .col-lg-4.col-md-4.col-sm-4.col-xs-8 {
+    width: 30.333333%;
+}
+
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow .col-lg-4.col-md-4.col-sm-4.col-xs-8 {
+    width: 30.333333%;
+}
+
+#pjWrapperBusReservation_theme1 .pjBsFormBody .panel.panel-default.pjBsSeats.bsBusContainer header.panel-heading.pjBsSeatsHead .col-lg-2.col-md-2.col-sm-2 {
+    width: 13.666667% !important;
+}
+
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow .col-lg-8.col-lg-offset-4.col-md-8.col-md-offset-4.col-sm-12.col-xs-12 .row.pjBsRowInline .input-group {
+    margin-top: 46px;
+}
+
+
+
+
+
+@media (max-width:1024px) {
+    .hero-overlay {
+        height: 550px
+    }
+}
+
+@media (min-width:1024px) {
+    .hero-overlay {
+        height: 750px
+    }
+}
+
+@media (max-width:900px) {
+#my-ticket-form {
+    width: 60% !important;
+}
+}
+@media (min-width:769px) {
+    #my-ticket-desc {
+        min-width:650px; 
+    }
+    #my-ticket-form {
+        width:700px;
+    }
+}
+
+@media (max-width:768px) {
+    .hero-overlay {
+        height: 450px
+    }
+
+    .navbar-fixed-top {
+        background: #fff !important;
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .1)
+    }
+
+    .navbar-default .navbar-nav > li > a {
+        color: #ff0000;
+        opacity: 1;
+        line-height: 20px !important;
+        margin-left: 0 !important
+    }
+
+    .navbar-fixed-top .navbar-toggle .icon-bar {
+        background-color: #757d8a !important
+    }
+
+    .navbar-fixed-top .navbar-nav .activenav a {
+        color: #222;
+        border-bottom: 1px solid #0785f2
+    }
+
+    #my-ticket-desc {
+        min-width:100%; 
+    }
+
+    #my-ticket-form {
+        width:100%;
+    }
+	
+	
+	.bsMapContainer{
+			
+	transform: rotate(90deg);
+  	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	margin-top: 30%;
+    margin-bottom: 400px !important;
+			
+	}
+
+.bsMapHolder img{ max-width:inherit;}
+
+.bsMapHolder {overflow:inherit!important;  overflow-y: inherit;}
+
+}
+
+@media (max-width:990px) {
+    p.description-image {
+        padding: 0 !important
+    }
+}
+
+@media (max-width:990px) {
+    .zig-zag {
+        text-align: center;
+        margin-bottom: 40px
+    }
+
+    .zig-zag-right * {
+        text-align: center !important;
+        margin-bottom: 20px
+    }
+
+    .carousel-indicators {
+        position: relative;
+        clear: both;
+        margin-bottom: 30px;
+        left: 50%
+    }
+#book {
+    margin-left: 0;
+	 margin-right: 0;
+}
+.chzn-container {
+    float: left;
+    width: 100% !important;
+	}
+	#list_agents .col-lg-4.col-md-6.col-sm-6, #list_agents .col-lg-4.col-md-4.col-sm-3 {
+    width: 46%;
+    margin: 0 2% 20px 2% !important;
+}
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout footer.pjBsFormFoot .pjBsFormMessages .pjBrBookingMsg .bsSystemMessage {
+    font-size: 15px;
+}
+}
+@media (max-width:767px) {
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow p.pjBsBusTitle, #pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow p.pjBsBusAvailableSeats, #pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow p.pjBsBusDate {
+    font-size: 15px;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow .col-lg-8.col-lg-offset-4.col-md-8.col-md-offset-4.col-sm-12.col-xs-12 .col-sm-4.col-xs-12.ticket_select label {
+    display: none;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow .col-lg-8.col-lg-offset-4.col-md-8.col-md-offset-4.col-sm-12.col-xs-12 {
+    position: static;
+    width: 100%;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow .col-lg-4.col-md-4.col-sm-4.col-xs-8 {
+    width: 100%;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow .col-lg-2.col-md-2.col-sm-2.col-xs-4 {
+    width: 100%;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow .col-lg-8.col-lg-offset-4.col-md-8.col-md-offset-4.col-sm-12.col-xs-12 .row.pjBsRowInline .input-group {
+    margin-top: 0;
+    width: 100%;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow .col-lg-8.col-lg-offset-4.col-md-8.col-md-offset-4.col-sm-12.col-xs-12 .col-sm-4.col-xs-12.ticket_select {
+    padding: 0 15px;
+}
+#pjWrapperBusReservation_theme1 .pjBsFormBody .panel.panel-default.pjBsSeats.bsBusContainer header.panel-heading.pjBsSeatsHead p.panel-title{
+	display:none;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow .col-lg-8.col-lg-offset-4.col-md-8.col-md-offset-4.col-sm-12.col-xs-12 .col-sm-4.col-xs-12.ticket_select span.input-group-addon{
+    text-align: right;
+	font-size: 18px;
+}
+}
+@media (max-width:600px) {
+.news .nmNewsList .nmNewsBox.nmFullNews .nmNewsDetail img.nmNewsThumb {
+    width: 100%;
+    height: 250px;
+    max-height: 250px;
+}
+
+.news .nmNewsList .nmNewsBox.nmFullNews .nmNewsDetail .nmDescription {
+    width: 100%;
+    margin: 0  !important;
+    padding: 25px 15px !important;
+}
+
+.news .nmNewsList .nmNewsBox.nmFullNews .nmPublishedDate {
+    left: 15px;
+    top: 76%;
+}
+
+.news .nmNewsList .nmNewsBox.nmFullNews {
+    margin: 0 0 15px 0;
+    padding: 0 0 15px 0;
+}
+.nmDetailContainer .nmDetail img.nmNewsImage {
+    width: 94% !important;
+    height: auto !important;
+    max-height: inherit;
+    position: static;
+    margin: 0 3%;
+    float: left;
+}
+
+.nmDetailContainer .nmDetail p {
+    width: 94%;
+    margin: 20px 3% 0 3%;
+}
+
+.nmDetailContainer .nmTitle, .nmDetailContainer .nmNewsBack, .nmDetailContainer .nmDate {
+    float: left;
+    width: 100%;
+}
+.chzn-container {
+    float: left;
+    width: 100% !important;
+}
+#list_agents .col-lg-4.col-md-6.col-sm-6, #list_agents .col-lg-4.col-md-4.col-sm-3 {
+    width: 100%;
+    margin: 0 0 20px 0 !important;
+}
+#agents .title p.description {
+    padding-left: 0;
+    padding-right: 0;
+}
+#my-ticket-form {
+    width: 90% !important;
+}
+
+
+.bsMapContainer{
+			
+	margin-top: 20%;
+    
+
+}
+#pjWrapperBusReservation_theme1 .pjBsSeats .pjBsSeatsBody .pjBsSeatsContainer {
+    border: none;
+    background: none !important;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormTickets .pjBsListSeats .bsMapContainer{
+	border: none;
+}
+}
+
+
+
+
+
+
+@media (max-width:450px) {
+ .social {
+        float: left !important;
+        margin-bottom: 20px;
+        margin-top: -15px
+    }
+
+.zig-zag h2 {
+        margin-top: 30px
+    }
+.news .nmNewsList .nmNewsBox.nmFullNews .nmPublishedDate {
+    top: 72%;
+}
+
+}
+@media (max-width:414px) {
+.news .nmNewsList .nmNewsBox.nmFullNews .nmNewsDetail .nmDescription label.nmTitle {
+    font-size: 24px;
+	line-height: normal;
+	}
+.news .nmNewsList .nmNewsBox.nmFullNews .nmPublishedDate {
+    top: 342px;
+}
+#my-ticket-form {
+    width: 100% !important;
+}
+#pjWrapperBusReservation_theme1 .pjBsFormContent .col-lg-12.col-md-12.col-sm-12.col-xs-12 {
+    width: 100%;
+}
+section#services {
+    padding-left: 0;
+    padding-right: 0;
+}
+#services #pjWrapperBusReservation_theme1 .pjBsContainer .panel-default.pjBsMain .pjBsBody .pjBsForm.pjBsFormCheckout form.bsCheckoutForm footer.pjBsFormFoot .pjBsFormActions button.btn.btn-primary.pull-right{
+    display: block;
+    float: left !important;
+    margin-top: 20px;
+	clear: both;
+}
+}
+
+@media (max-width:360px) {
+#pjWrapperBusReservation_theme1 .pjBsMain .pjBsBody .pjBsForm.pjBsFormTickets footer.pjBsFormFoot {
+    margin-top: 50px;
+}
+}
+@media (max-width:650px) {
+    .footer-section {
+        text-align: center !important
+    }
+
+    p.copyright {
+        float: none !important;
+        margin-left: 0 !important
+    }
+
+    .social {
+        float: none !important
+    }
+
+    .marketing-action h1 {
+        font-size: 35px;
+        font-weight: 400
+    }
+}
+
+@media (max-width:768px) {
+    .price-table {
+        margin: 30px !important
+    }
+}
+
+
+@media (max-width:767px) {
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData {
+    width: 100%;
+    padding-right: 0;
+
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group {
+    width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group .col-lg-10.col-md-9.col-sm-8.col-xs-12 {
+    width: 100%;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group:nth-child(4) .col-lg-5.col-md-5.col-sm-12.col-xs-12:last-child {
+    width: 30%;
+    float: right;
+    padding-left: 0;
+    padding-right: 15px;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group label.control-label, #pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group .col-lg-10.col-md-9.col-sm-8.col-xs-12 {
+    padding-left: 0;
+	padding-right: 0;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData:nth-child(5) {
+    width: 100%;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group:nth-child(4) .col-lg-5.col-md-5.col-sm-12.col-xs-12{
+    padding-left: 0;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal .form-group:nth-child(4) .col-lg-5.col-md-5.col-sm-12.col-xs-12:last-child{
+    padding-right: 0;
+}
+#pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .col-lg-2.col-md-2.col-sm-2.col-xs-4, #pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormHead .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData {
+    width: 100%;
+}
+
+}
+@media (max-width:600px) {
+    .main-message h1 {
+        font-size: 40px !important
+    }
+	.nmDetailContainer a.nmReadMore {
+    padding-left: 15px;
+}
+.nmDetailContainer .nmDate, .nmDetailContainer .nmNewsBack, .nmDetailContainer .nmTitle{
+    margin-left: 15px;}
+	#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dt {
+    font-size: 15px;
+    padding: 0;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dd{
+    font-size: 21px;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner{
+    padding-bottom: 20px !important;
+    margin-bottom: 20px;
+}
+#pjWrapperBusReservation_theme1 .pjBsForm.pjBsFormCheckout form.bsCheckoutForm .pjBsFormBody .form-horizontal {
+    margin-top: 0;
+}
+#pjWrapperBusReservation_theme1 .pjBsMain .pjBsBody .pjBsForm.pjBsFormTickets header.pjBsFormHead p.pjBsFormTitle, #pjWrapperBusReservation_theme1 .pjBsMain .pjBsBody .pjBsForm.pjBsFormTickets header.pjBsFormHead dl.dl-horizontal.pjBsDepartureDate.pull-right strong, #pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow p.pjBsBusTitle, #pjWrapperBusReservation_theme1 ul.list-group.pjBsListBusses li.list-group-item .row.bsRow p.pjBsBusTitle, #pjWrapperBusReservation_theme1 .pjBsFormCheckout .pjBsFormHead .row.pjBsFormBoxes .col-lg-4.col-md-4.col-sm-4.col-xs-6.pjBsFormBox .pjBsFormBoxInner dl.dl-horizontal.pjBsFormBoxData dd{
+    font-size: 15px;
+}
+#pjWrapperBusReservation_theme1 .pjBsMain .pjBsBody .pjBsForm.pjBsFormTickets header.pjBsFormHead dl.dl-horizontal.pjBsDepartureDate.pull-right a.bsDateNav:nth-child(1), #pjWrapperBusReservation_theme1 .pjBsMain .pjBsBody .pjBsForm.pjBsFormTickets header.pjBsFormHead dl.dl-horizontal.pjBsDepartureDate.pull-right a.bsDateNav:nth-child(3){
+background-size: 30px;}
+
+
+
+}
+
+.marketing-action {
+    position: relative;
+    background: url(https://mazhandufamilybus.com/app/web/img/pencil.jpg) center no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden
+}
+
+.marketing-action .overlay {
+    background: rgba(0, 0, 0, .5);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 360px
+}
+
+.marketing-action .text {
+    position: absolute;
+    text-align: center;
+    top: 48%;
+    transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+.marketing-action h1 {
+    margin-bottom: 15px !important;
+    margin-top: 0
+}
+
+.marketing-action .text h1 {
+    color: #fff
+}
+
+.btn-cta-buy {
+    background-color: #3476FF;
+    margin-top: 0
+}
+
+.btn-cta-buy:hover, .btn-cta-buy:focus {
+    background-color: #fff;
+    color: #3476FF !important;
+    margin-top: 0
+}
+
+#footer {
+    margin-bottom: 0;
+    background-color: #102F70;
+    padding-top: 50px
+}
+
+.footer-section {
+    margin-bottom: 30px
+}
+
+img.logo-footer {
+    margin-top: -15px
+}
+
+p.copyright {
+    float: left;
+    margin-left: -30px
+}
+
+.social {
+    float: right;
+    margin-right: -15px
+}
+
+.social a {
+    padding-right: 15px;
+    font-size: 19px
+}
+
+.price-table ul.contact {
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.price-table ul.contact li {
+    font-size: 14px;
+    line-height: 37px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+    line-height: 20px !important;
+}
+.fixed-header .navbar-nav > li > a {
+
+    color: #999999 !important;
+}
+.agent_name {
+    color: #111;
+    font-weight: 500;
+    font-size: 18px;
+}
+.address_label {
+    margin-top:10px;
+    color: #111;
+    font-weight: 500;
+    font-size: 14px;
+}
+.no_agents {
+    text-align:center;
+    margin-bottom:50px;
+}

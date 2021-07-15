@@ -1,0 +1,434 @@
+
+
+
+-------Lipila---------
+
+
+{"RESPONSE":{"TXID":"1594866488","EXTID":"1605682092000","AMOUNT":"0.1","RESPONSECODE":100,"DESCRIPTION":"SUCCESSFUL"}}
+
+
+----------------
+
+
+
+-------Lipila---------
+
+
+
+
+
+----------------
+New booking.
+ID: 1605 6820 92
+Name: Mr. Test 1 Test 2
+Date: 19/11/2020
+Time: 07:00 - 14:00
+Bus: LUSAKA - CHILILABOMBWE, 07:00 - 16:30
+Route: from Lusaka  to Kitwe
+Seats: 5
+Amount: ZMW 155.00
+
+
+----------------
+You've a cancellation.
+
+Personal details:
+Title: Mr.
+First Name: Test 1
+Last Name: Test 2
+E-Mail: 
+Phone: +260968341554
+Notes: 
+
+
+Booking details:
+Booking date: 19/11/2020
+Time: 07:00 - 14:00
+Bus: LUSAKA - CHILILABOMBWE, 07:00 - 16:30
+Route: from Lusaka  to Kitwe
+Seats: 5
+Ticket types price: STANDARD 1 x ZMW 170.00 = ZMW 170.00
+Unique ID: 1605 6820 92
+Total: ZMW 155.00
+
+
+
+----------------
+New booking.
+ID: 1605 6820 92
+Name: Mr. Test 1 Test 2
+Date: 19/11/2020
+Time: 07:00 - 14:00
+Bus: LUSAKA - CHILILABOMBWE, 07:00 - 16:30
+Route: from Lusaka  to Kitwe
+Seats: 5
+Amount: ZMW 155.00
+
+
+----------------
+You've a cancellation.
+
+Personal details:
+Title: Mr.
+First Name: Test 1
+Last Name: Test 2
+E-Mail: 
+Phone: +260968341554
+Notes: 
+
+
+Booking details:
+Booking date: 19/11/2020
+Time: 07:00 - 14:00
+Bus: LUSAKA - CHILILABOMBWE, 07:00 - 16:30
+Route: from Lusaka  to Kitwe
+Seats: 5
+Ticket types price: STANDARD 1 x ZMW 170.00 = ZMW 170.00
+Unique ID: 1605 6820 92
+Total: ZMW 155.00
+
+
+
+----------------
+New booking.
+ID: 1605 7189 01
+Name: Mr. Munsaka Hakoma
+Date: 20/11/2020
+Time: 09:30 - 11:00
+Bus: LUSAKA - CHILILABOMBWE, 09:30 - 17:30
+Route: from Lusaka  to Kabwe
+Seats: 1
+Amount: ZMW 130.00
+
+
+----------------
+You've a cancellation.
+
+Personal details:
+Title: Mr.
+First Name: Test
+Last Name: Test
+E-Mail: 
+Phone: +260968341554
+Notes: 
+
+
+Booking details:
+Booking date: 20/11/2020
+Time: 07:00 - 14:00
+Bus: LUSAKA - CHILILABOMBWE, 07:00 - 16:30
+Route: from Lusaka  to Kitwe
+Seats: 22
+Ticket types price: STANDARD 1 x ZMW 170.00 = ZMW 170.00
+Unique ID: 1605 7718 16
+Total: ZMW 170.00
+
+
+
+----------------
+New booking.
+ID: 1605 8731 14
+Name: Mr. johntest jt
+Date: 20/11/2020
+Time: 07:00 - 14:00
+Bus: LUSAKA - CHILILABOMBWE, 07:00 - 16:30
+Route: from Lusaka  to Kitwe
+Seats: 41, 45
+Amount: ZMW 340.00
+
+
+----------------
+New booking.
+ID: 1605 8739 51
+Name: Mr. petertest pt
+Date: 20/11/2020
+Time: 05:30 - 12:30
+Bus: LUSAKA - KITWE, 05:30 - 12:30
+Route: from Lusaka  to Kitwe
+Seats: 22, 23
+Amount: ZMW 320.00
+
+
+----------------
+New booking.
+ID: 1605 8743 86
+Name: Mr. onewaytest ot
+Date: 24/11/2020
+Time: 09:30 - 15:20
+Bus: LUSAKA - CHILILABOMBWE, 09:30 - 17:30
+Route: from Lusaka  to Kitwe
+Seats: 55, 56
+Amount: ZMW 320.00
+
+
+----------------
+New booking.
+ID: 1605 9542 85
+Name: Mr. Lusekelo Kutalaz
+Date: 08/12/2020
+Time: 08:40 - 16:00
+Bus: CHILILABOMBWE TO LUSAKA, 08:00 - 16:00
+Route: from Chingola to Lusaka 
+Seats: 1
+Amount: ZMW 165.00
+
+
+----------------
+You've a cancellation.
+
+Personal details:
+Title: Mr.
+First Name: Test
+Last Name: Test 
+E-Mail: 
+Phone: +260968341554
+Notes: 
+
+
+Booking details:
+Booking date: 23/11/2020
+Time: 21:00 - 22:00
+Bus: TestSource-TestDestination, 21:00 - 22:00
+Route: from TestSource to TestDestination
+Seats: 38
+Ticket types price: 1 1 x ZMW 20.00 = ZMW 20.00
+Unique ID: 1606 0267 32
+Total: ZMW 10.00
+
+
+
+----------------
+New booking.
+ID: 1606 0811 31
+Name: Mr. Test Test
+Date: 23/11/2020
+Time: 07:00 - 14:00
+Bus: LUSAKA - CHILILABOMBWE, 07:00 - 16:30
+Route: from Lusaka  to Kitwe
+Seats: 2
+Amount: ZMW 170.00
+
+
+----------------
+Congratulations, your booking reservation was successful! Please note that payment has to be made within November 23 - 2020, 9:23 AM at your nearest agent to avoid cancellation.
+Booking details:
+ID: 1606 1090 05
+Name: Mr. Test1 Book
+Date: 24/11/2020
+Time: 08:00 - 16:00
+Bus: CHILILABOMBWE TO LUSAKA, 08:00 - 16:00
+Route: from Chililabombwe to Lusaka 
+Seats: 1
+Amount: ZMW 190.00
+Status: Pending
+Discount: 0
+Mazhandu Family Bus Services.
+
+
+----------------
+New booking.
+ID: 1606 1090 05
+Name: Mr. Test1 Book
+Date: 24/11/2020
+Time: 08:00 - 16:00
+Bus: CHILILABOMBWE TO LUSAKA, 08:00 - 16:00
+Route: from Chililabombwe to Lusaka 
+Seats: 1
+Amount: ZMW 190.00
+
+
+----------------
+We are sorry to inform you know that your booking reservation has been cancelled. Payment and confirmation of tickets should be made at least 2 hours before departure time. 
+Booking details:
+ID: 1606 1090 05
+Name: Mr. Test1 Book
+Date: 24/11/2020
+Time: 08:00 - 16:00
+Bus: CHILILABOMBWE TO LUSAKA, 08:00 - 16:00
+Route: from Chililabombwe to Lusaka 
+Seats: 1
+Amount: ZMW 190.00
+Total: ZMW 190.00
+Status: Cancelled
+Discount: 0
+Mazhandu Family Bus Services.
+
+
+----------------
+You've a cancellation.
+
+Personal details:
+Title: Mr.
+First Name: Test1
+Last Name: Book
+E-Mail: babunvj@gmail.com
+Phone: +919447580215
+Notes: 
+
+
+Booking details:
+Booking date: 24/11/2020
+Time: 08:00 - 16:00
+Bus: CHILILABOMBWE TO LUSAKA, 08:00 - 16:00
+Route: from Chililabombwe to Lusaka 
+Seats: 1
+Ticket types price: STANDARD 1 x ZMW 190.00 = ZMW 190.00
+Unique ID: 1606 1090 05
+Total: ZMW 190.00
+
+
+
+----------------
+New booking.
+ID: 1606 1151 11
+Name: Mr. TEST TEST
+Date: 24/11/2020
+Time: 21:00 - 22:00
+Bus: TestSource-TestDestination, 21:00 - 22:00
+Route: from TestSource to TestDestination
+Seats: 2
+Amount: ZMW 20.00
+
+
+----------------
+You've a cancellation.
+
+Personal details:
+Title: Mr.
+First Name: TEST
+Last Name: TEST
+E-Mail: 
+Phone: +260968341554
+Notes: 
+
+
+Booking details:
+Booking date: 24/11/2020
+Time: 21:00 - 22:00
+Bus: TestSource-TestDestination, 21:00 - 22:00
+Route: from TestSource to TestDestination
+Seats: 2
+Ticket types price: 1 1 x ZMW 20.00 = ZMW 20.00
+Unique ID: 1606 1151 11
+Total: ZMW 20.00
+
+
+
+----------------
+New booking.
+ID: 1606 2050 21
+Name: Mr. Stephan Mate
+Date: 25/11/2020
+Time: 07:00 - 16:30
+Bus: LUSAKA - CHILILABOMBWE, 07:00 - 16:30
+Route: from Lusaka  to Chililabombwe
+Seats: 28
+Amount: ZMW 200.00
+
+
+----------------
+Please note that your reservation is pending while awaiting payment. Please pay with any agent near you to avoid cancellation.
+Booking details:
+ID: 1606 2268 02
+Name: Mr. Test1 Book
+Date: 26/11/2020
+Time: 08:00 - 08:30
+Bus: CHILILABOMBWE TO LUSAKA, 08:00 - 16:00
+Route: from Chililabombwe to Chingola
+Seats: 1
+Amount: ZMW 15.00
+Status: Pending
+Discount: 0
+Mazhandu Family Bus Services.
+
+
+----------------
+New booking.
+ID: 1606 2268 02
+Name: Mr. Test1 Book
+Date: 26/11/2020
+Time: 08:00 - 08:30
+Bus: CHILILABOMBWE TO LUSAKA, 08:00 - 16:00
+Route: from Chililabombwe to Chingola
+Seats: 1
+Amount: ZMW 15.00
+
+
+----------------
+You've a cancellation.
+
+Personal details:
+Title: Mr.
+First Name: Test1
+Last Name: Book
+E-Mail: 
+Phone: +919447580215
+Notes: 
+
+
+Booking details:
+Booking date: 26/11/2020
+Time: 08:00 - 08:30
+Bus: CHILILABOMBWE TO LUSAKA, 08:00 - 16:00
+Route: from Chililabombwe to Chingola
+Seats: 1
+Ticket types price: STANDARD 1 x ZMW 15.00 = ZMW 15.00
+Unique ID: 1606 2268 02
+Total: ZMW 15.00
+
+
+
+----------------
+We are sorry to inform you know that your booking reservation has been cancelled. Payment and confirmation of tickets should be made at least 2 hours before departure time. 
+Booking details:
+ID: 1606 2268 02
+Name: Mr. Test1 Book
+Date: 26/11/2020
+Time: 08:00 - 08:30
+Bus: CHILILABOMBWE TO LUSAKA, 08:00 - 16:00
+Route: from Chililabombwe to Chingola
+Seats: 1
+Amount: ZMW 15.00
+Total: ZMW 15.00
+Status: Cancelled
+Discount: 0
+Mazhandu Family Bus Services.
+
+
+----------------
+You've a cancellation.
+
+Personal details:
+Title: Mr.
+First Name: Chobela
+Last Name: Kakumbi
+E-Mail: 
+Phone: +260967301606
+Notes: 
+
+
+Booking details:
+Booking date: 24/11/2020
+Time: 21:00 - 22:00
+Bus: TestSource-TestDestination, 21:00 - 22:00
+Route: from TestSource to TestDestination
+Seats: 14
+Ticket types price: 1 1 x ZMW 20.00 = ZMW 20.00
+Unique ID: 1606 2051 44
+Total: ZMW 15.00
+
+
+
+----------------
+New booking.
+ID: 1606 2733 25
+Name: Mr. Stephan Mate
+Date: 25/11/2020
+Time: 07:00 - 16:30
+Bus: LUSAKA - CHILILABOMBWE, 07:00 - 16:30
+Route: from Lusaka  to Chililabombwe
+Seats: 28
+Amount: ZMW 200.00
+
+
+----------------

@@ -1,0 +1,495 @@
+/* ==========================================================================
+	#Transitions
+========================================================================== */
+#pjWrapper .btn,
+#pjWrapper .pjBsForm .form-control,
+#pjWrapper .pjBsNav .dropdown-menu a,
+#pjWrapper .pjBsForm .pjBsDatePicker .input-group-addon,
+#pjWrapper .pjBsFormTickets .pjBsFormHead .pjBsDepartureDate dd a,
+#pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsSeatsContainer .pjBsSeat,
+#pjWrapper .pjBsForm .checkbox a { -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none; transition: none; }
+
+/* ==========================================================================
+	#Animations
+========================================================================== */
+@-webkit-keyframes hvr-pop {
+	50% { -webkit-transform: scale(1.2); transform: scale(1.2); }
+}
+@keyframes hvr-pop {
+	50% { -webkit-transform: scale(1.2); transform: scale(1.2); }
+}
+
+/* ==========================================================================
+	#General
+========================================================================== */
+#pjWrapper a[href^=tel] { color: inherit; }
+#pjWrapper a:focus { outline: unset; outline: none; }
+
+#pjWrapper .pjBsContainer { padding: 15px; }
+
+#pjWrapper .pjBsRowInline { font-size: 0; }
+#pjWrapper .pjBsRowInline [class^="col-"] { display: inline-block; float: none; vertical-align: bottom; }
+
+/* ==========================================================================
+	#Buttons
+========================================================================== */
+#pjWrapper .btn-default { height: 44px; padding: 0 20px; border: 1px solid #bebabb; font-size: 15px; line-height: 42px; font-weight: 400; text-transform: capitalize; }
+
+#pjWrapper .btn-primary { height: 44px; padding: 0 20px; border: 1px solid #1b6aac; font-size: 15px; line-height: 42px; font-weight: 400; text-transform: capitalize; }
+
+#pjWrapper .btn-link { margin: 0; padding: 0 5px; text-align: inherit; white-space: normal; }
+#pjWrapper .btn-link:hover,
+#pjWrapper .btn-link:focus { text-decoration: none; }
+
+/* ==========================================================================
+	#Modals
+========================================================================== */
+#pjWrapper .pjBsModal .modal-title { font-size: 22px; line-height: 1.4; font-weight: 600; text-transform: capitalize; }
+
+/* ==========================================================================
+	#pjBsHeader
+========================================================================== */
+#pjWrapper .pjBsNav .dropdown-toggle { border: 1px solid #bebabb; text-transform: uppercase; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none; transition: none; }
+#pjWrapper .pjBsNav.open .dropdown-toggle { border-radius: 4px 4px 0 0; }
+#pjWrapper .pjBsNav .dropdown-toggle .caret { border-top-width: 5px; -webkit-transition: -webkit-transform .5s ease-in-out; -moz-transition: -moz-transform .5s ease-in-out; -ms-transition: -ms-transform .5s ease-in-out; -o-transition: -o-transform .5s ease-in-out; transition: transform .5s ease-in-out; }
+#pjWrapper .pjBsNav.open .dropdown-toggle .caret { -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); }
+#pjWrapper .pjBsNav .dropdown-menu { margin: 0; border-radius: 0; }
+#pjWrapper .pjBsNav .dropdown-menu li { padding: 1px 0; }
+#pjWrapper .pjBsNav .dropdown-menu a { padding: 0 15px; line-height: 1.5; }
+#pjWrapper .pjBsNav .dropdown-menu .pjBsDdisabled { opacity: .7; cursor: default; pointer-events: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }
+
+#pjWrapper .pjBsNavLang .dropdown-menu a { font-family: Arial, Helvetica, sans-serif; font-size: 13px; text-align: right; }
+#pjWrapper .pjBsNavLang .dropdown-toggle img { margin-top: -2px; }
+
+/* ==========================================================================
+	#pjBsForms
+========================================================================== */
+#pjWrapper .pjBsForm .form-group { margin-bottom: 25px; }
+#pjWrapper .pjBsForm label,
+#pjWrapper .pjBsForm .control-label { font-weight: 400; }
+#pjWrapper .pjBsForm .form-control { padding: 0 15px; border: 1px solid #bfbbbc; }
+#pjWrapper .pjBsForm select.form-control { cursor: pointer; }
+#pjWrapper .pjBsForm .pjBsFieldInline { width: auto; }
+#pjWrapper .pjBsForm .checkbox label { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }
+#pjWrapper .pjBsForm .checkbox input { margin-top: 3px; cursor: pointer; }
+#pjWrapper .pjBsForm .checkbox a:hover { text-decoration: none; }
+
+#pjWrapper .pjBsForm .pjBsCaptcha { font-size: 0; }
+#pjWrapper .pjBsForm .pjBsCaptcha .form-control,
+#pjWrapper .pjBsForm .pjBsCaptcha img { display: inline-block; vertical-align: middle; }
+#pjWrapper .pjBsForm .pjBsCaptcha .form-control { width: 170px; margin-right: 7px; }
+
+#pjWrapper .pjBsForm .help-block,
+#pjWrapper .pjBsForm .help-block * { margin: 0; }
+#pjWrapper .pjBsForm .help-block { overflow: hidden; }
+#pjWrapper .pjBsForm .help-block li { overflow: hidden; max-width: 100%; font-size: 12px; white-space: nowrap; -ms-text-overflow: ellipsis; text-overflow: ellipsis; }
+
+/* ==========================================================================
+	#pjBsDatePicker
+========================================================================== */
+#pjWrapper .pjBsForm .pjBsDatePicker { position: relative; width: 100%; }
+#pjWrapper .pjBsForm .pjBsDatePicker .form-control { display: block; width: 100%; padding-right: 30px; border-radius: 4px; }
+#pjWrapper .pjBsForm .pjBsDatePicker .input-group-addon { position: absolute; top: 50%; right: 10px; width: auto; height: auto; padding: 0; display: inline-block; z-index: 2; float: none; border: 0; background: none; font-size: 16px; cursor: pointer; -webkit-transform: translate(0, -50%); -ms-transform: translate(0, -50%); -o-transform: translate(0, -50%); transform: translate(0, -50%); }
+#pjWrapper .pjBsForm .pjBsDatePicker .input-group-addon .glyphicon { color: inherit; }
+
+/* ==========================================================================
+	#Select2 Autocomplete
+========================================================================== */
+.select2-container { position: relative; display: inline-block; margin: 0; vertical-align: middle; box-sizing: border-box; }
+#pjWrapper .select2-container { width: 100% !important; }
+.select2-container .select2-selection--single.pjBsSelect2Preview { display: block; height: 34px; cursor: pointer; box-sizing: border-box; user-select: none; -webkit-user-select: none; }
+.select2-container .select2-selection--single.pjBsSelect2Preview .select2-selection__rendered { overflow: hidden; display: block; padding-right: 20px; padding-left: 15px; white-space: nowrap; text-overflow: ellipsis; }
+.select2-container .select2-selection--single.pjBsSelect2Preview .select2-selection__clear { position: relative; }
+.select2-container[dir="rtl"] .select2-selection--single.pjBsSelect2Preview .select2-selection__rendered { padding-right: 15px; padding-left: 20px; }
+.select2-container .select2-selection--multiple.pjBsSelect2Preview { display: block; min-height: 34px; cursor: pointer; box-sizing: border-box; user-select: none; -webkit-user-select: none; }
+.select2-container .select2-selection--multiple.pjBsSelect2Preview .select2-selection__rendered { overflow: hidden; display: inline-block; padding-left: 8px; white-space: nowrap; text-overflow: ellipsis; }
+.select2-container .pjBsSelect2Dropdown .select2-search--inline { float: left; }
+.select2-container .pjBsSelect2Dropdown .select2-search--inline .select2-search__field { margin-top: 5px; padding: 0; border: none; font-size: 100%; box-sizing: border-box; }
+.select2-container .pjBsSelect2Dropdown .select2-search--inline .select2-search__field::-webkit-search-cancel-button { -webkit-appearance: none; }
+.select2-dropdown.pjBsSelect2Dropdown { position: absolute; left: -100000px; z-index: 1051; display: block; width: 100%; border: 1px solid #aaa; border-radius: 4px; box-sizing: border-box; }
+.pjBsSelect2Dropdown .select2-results { display: block; }
+.pjBsSelect2Dropdown .select2-results__options { margin: 0; padding: 0; list-style: none; }
+.pjBsSelect2Dropdown .select2-results__option { padding: 6px; user-select: none; -webkit-user-select: none; }
+.pjBsSelect2Dropdown .select2-results__option[aria-selected] { cursor: pointer; }
+.select2-container--open .select2-dropdown.pjBsSelect2Dropdown { left: 0; }
+.select2-container--open .select2-dropdown--above.pjBsSelect2Dropdown { border-bottom: none; border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.select2-container--open .select2-dropdown--below.pjBsSelect2Dropdown { border-top: none; border-top-left-radius: 0; border-top-right-radius: 0; }
+.pjBsSelect2Dropdown .select2-search--dropdown { display: block; padding: 4px; }
+.pjBsSelect2Dropdown .select2-search--dropdown .select2-search__field { width: 100%; padding: 4px; box-sizing: border-box; }
+.pjBsSelect2Dropdown .select2-search--dropdown .select2-search__field::-webkit-search-cancel-button { -webkit-appearance: none; }
+.pjBsSelect2Dropdown .select2-search--dropdown.select2-search--hide { display: none; }
+.select2-close-mask { position: fixed; left: 0; top: 0; z-index: 99; display: block; width: auto; min-width: 100%; height: auto; min-height: 100%; margin: 0; padding: 0; border: 0; background-color: #fff; opacity: 0; filter: alpha(opacity=0); }
+.select2-hidden-accessible { position: absolute !important; overflow: hidden !important; width: 1px !important; height: 1px !important; margin: -1px !important; padding: 0 !important; border: 0 !important; clip: rect(0 0 0 0) !important; }
+.select2-container--default .select2-selection--single.pjBsSelect2Preview { border: 1px solid #bfbbbc; }
+.select2-container--default .select2-selection--single.pjBsSelect2Preview .select2-selection__rendered { line-height: 32px; }
+.select2-container--default .select2-selection--single.pjBsSelect2Preview .select2-selection__clear { float: right; font-weight: bold; cursor: pointer; }
+.select2-container--default .select2-selection--single.pjBsSelect2Preview .select2-selection__arrow { position: absolute; top: 1px; right: 1px; width: 20px; height: 32px; }
+.select2-container--default .select2-selection--single.pjBsSelect2Preview .select2-selection__arrow b { position: absolute; top: 50%; left: 50%; width: 0; height: 0; margin-top: -2px; margin-left: -4px; border-style: solid; border-width: 5px 4px 0 4px; }
+.select2-container--default[dir="rtl"] .select2-selection--single.pjBsSelect2Preview .select2-selection__clear { float: left; }
+.select2-container--default[dir="rtl"] .select2-selection--single.pjBsSelect2Preview .select2-selection__arrow { right: auto; left: 1px; }
+.select2-container--default.select2-container--disabled .select2-selection--single.pjBsSelect2Preview { cursor: default; }
+.select2-container--default.select2-container--disabled .select2-selection--single.pjBsSelect2Preview .select2-selection__clear { display: none; }
+.select2-container--default.select2-container--open .select2-selection--single.pjBsSelect2Preview .select2-selection__arrow b { border-width: 0 4px 5px 4px; }
+.select2-container--default .select2-selection--multiple.pjBsSelect2Preview { border: 1px solid #aaa; border-radius: 4px; cursor: text; }
+.select2-container--default .select2-selection--multiple.pjBsSelect2Preview .select2-selection__rendered { width: 100%; margin: 0; padding: 0 5px; list-style: none; box-sizing: border-box; }
+.select2-container--default .select2-selection--multiple.pjBsSelect2Preview .select2-selection__rendered li { list-style: none; }
+.select2-container--default .select2-selection--multiple.pjBsSelect2Preview .select2-selection__placeholder { float: left; margin-top: 5px; }
+.select2-container--default .select2-selection--multiple.pjBsSelect2Preview .select2-selection__clear { float: right; margin-top: 5px; margin-right: 10px; font-weight: bold; cursor: pointer; }
+.select2-container--default .select2-selection--multiple.pjBsSelect2Preview .select2-selection__choice { float: left; margin-right: 5px; margin-top: 5px; padding: 0 5px; border: 1px solid #aaa; border-radius: 4px; cursor: default; }
+.select2-container--default .select2-selection--multiple.pjBsSelect2Preview .select2-selection__choice__remove { display: inline-block; margin-right: 2px; font-weight: bold; cursor: pointer; }
+.select2-container--default[dir="rtl"] .select2-selection--multiple.pjBsSelect2Preview .select2-selection__choice,
+.select2-container--default[dir="rtl"] .select2-selection--multiple.pjBsSelect2Preview .select2-selection__placeholder,
+.select2-container--default[dir="rtl"] .select2-selection--multiple.pjBsSelect2Preview .select2-search--inline { float: right; }
+.select2-container--default[dir="rtl"] .select2-selection--multiple.pjBsSelect2Preview .select2-selection__choice { margin-right: auto; margin-left: 5px; }
+.select2-container--default[dir="rtl"] .select2-selection--multiple.pjBsSelect2Preview .select2-selection__choice__remove { margin-right: auto; margin-left: 2px; }
+.select2-container--default.select2-container--focus .select2-selection--multiple.pjBsSelect2Preview { border: solid black 1px; outline: 0; }
+.select2-container--default.select2-container--disabled .select2-selection--multiple.pjBsSelect2Preview { cursor: default; }
+.select2-container--default.select2-container--disabled .select2-selection__choice__remove { display: none; }
+.select2-container--default.select2-container--open.select2-container--above .select2-selection--single.pjBsSelect2Preview,
+.select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple.pjBsSelect2Preview { border-top-left-radius: 0; border-top-right-radius: 0; }
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--single.pjBsSelect2Preview,
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple.pjBsSelect2Preview { border-bottom-left-radius: 0; border-bottom-right-radius: 0; }
+.select2-container--default .pjBsSelect2Dropdown .select2-search--dropdown .select2-search__field { border: 1px solid #aaa; }
+.select2-container--default .pjBsSelect2Dropdown .select2-search--inline .select2-search__field { border: none; background: transparent; outline: 0; box-shadow: none; -webkit-appearance: textfield; }
+.select2-container--default .pjBsSelect2Dropdown .select2-results > .select2-results__options { overflow-y: auto; max-height: 200px; }
+.select2-container--default .pjBsSelect2Dropdown .select2-results__option[role=group] { padding: 0; }
+.select2-container--default .pjBsSelect2Dropdown .select2-results__option .select2-results__option .select2-results__group { padding-left: 0; }
+.select2-container--default .pjBsSelect2Dropdown .select2-results__option .select2-results__option .select2-results__option { margin-left: -1em; padding-left: 2em; }
+.select2-container--default .pjBsSelect2Dropdown .select2-results__option .select2-results__option .select2-results__option .select2-results__option { margin-left: -2em; padding-left: 3em; }
+.select2-container--default .pjBsSelect2Dropdown .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option { margin-left: -3em; padding-left: 4em; }
+.select2-container--default .pjBsSelect2Dropdown .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option { margin-left: -4em; padding-left: 5em; }
+.select2-container--default .pjBsSelect2Dropdown .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option .select2-results__option { margin-left: -5em; padding-left: 6em; }
+.select2-container--default .pjBsSelect2Dropdown .select2-results__option { font-size: 14px; line-height: 1.4; }
+.select2-container--default .pjBsSelect2Dropdown .select2-results__group { display: block; padding: 6px; font-size: 15px; text-transform: capitalize; cursor: default; }
+
+/* ==========================================================================
+	#pjBsFormAvailability
+========================================================================== */
+#pjWrapper .pjBsFormAvailability .pjBsErrorMessage { margin: 0; padding-top: 10px; }
+#pjWrapper .pjBsFormAvailability .pjBsFormActions { padding-top: 15px; }
+#pjWrapper .pjBsFormAvailability .pjBsFormArticle { padding-top: 75px; }
+#pjWrapper .pjBsFormAvailability .pjBsFormArticle p { margin: 0; padding-bottom: 10px; font-size: 14px; line-height: 1.6; }
+#pjWrapper .pjBsFormAvailability .pjBsFormArticle .pjBsFormArticleTitle { margin: 0; padding-bottom: 10px; font-size: 22px; line-height: 1.4; font-weight: 400; }
+#pjWrapper .pjBsFormAvailability .pjBsFormArticle .pjBsFormArticleImage { padding-bottom: 5px; }
+#pjWrapper .pjBsFormAvailability .pjBsFormArticle .pjBsFormArticleImage img { max-width: 100%; }
+
+#pjWrapper .pjBsFormAvailability .pjBsFormNav { margin-bottom: 20px; }
+#pjWrapper .pjBsFormAvailability .pjBsFormNav .btn { height: 34px; line-height: 32px; }
+#pjWrapper .pjBsFormAvailability .pjBsFormNav .btn.active { -webkit-box-shadow: none; box-shadow: none; }
+#pjWrapper .pjBsFormAvailability .form-group { margin-bottom: 10px; }
+
+/* ==========================================================================
+	#pjBsFormTickets
+========================================================================== */
+#pjWrapper .pjBsFormTickets .pjBsFormHead { padding-bottom: 20px; }
+#pjWrapper .pjBsFormTickets .pjBsFormHead .pjBsFormTitle { margin: 0; font-size: 18px; line-height: 1.4; font-weight: 400; }
+#pjWrapper .pjBsFormTickets .pjBsFormHead .pjBsFormTitle strong { font-weight: 700; }
+#pjWrapper .pjBsFormTickets .pjBsFormHead .pjBsDepartureDate { margin: 0; padding: 5px 0; font-size: 0; }
+#pjWrapper .pjBsFormTickets .pjBsFormHead .pjBsDepartureDate dt,
+#pjWrapper .pjBsFormTickets .pjBsFormHead .pjBsDepartureDate dd { display: inline-block; float: none; width: auto; min-width: 1px; margin: 0; padding-right: 10px; font-size: 14px; line-height: 1.4; font-weight: 400; vertical-align: middle; }
+#pjWrapper .pjBsFormTickets .pjBsFormHead .pjBsDepartureDate dd strong { font-weight: 700; }
+#pjWrapper .pjBsFormTickets .pjBsFormHead .pjBsDepartureDate dd a:hover,
+#pjWrapper .pjBsFormTickets .pjBsFormHead .pjBsDepartureDate dd a:focus { text-decoration: none; }
+
+#pjWrapper .pjBsSeats .pjBsSeatsHead .pjBsSeatsTitle { margin: 0; font-size: 14px; line-height: 1.1; font-weight: 600; }
+#pjWrapper .pjBsSeats .pjBsListBusses > li > .row { font-size: 0; }
+#pjWrapper .pjBsSeats .pjBsListBusses > li > .row > * { overflow: hidden; display: inline-block; float: none; padding-top: 5px; vertical-align: top; }
+#pjWrapper .pjBsSeats .pjBsListBusses .pjBsBusTitle { margin: 0; font-size: 16px; line-height: 1.4; font-weight: 700; text-transform: capitalize; }
+#pjWrapper .pjBsSeats .pjBsListBusses .pjBsBusTitle a,
+#pjWrapper .pjBsSeats .pjBsListBusses .pjBsBusTitle a:hover,
+#pjWrapper .pjBsSeats .pjBsListBusses .pjBsBusTitle a:focus { text-decoration: none; }
+#pjWrapper .pjBsListTicks li { padding: 2px 0; font-size: 16px; line-height: 1.5; }
+#pjWrapper .pjBsListTicks .glyphicon { margin-right: 10px; font-size: 17px; }
+#pjWrapper .pjBsSeats .pjBsListBusses .pjBsBusAvailableSeats { margin: 0; font-size: 15px; line-height: 1.4; font-weight: 400; }
+#pjWrapper .pjBsSeats .pjBsListBusses .pjBsBusDate { margin: 0; font-size: 15px; line-height: 1.4; font-weight: 600; }
+#pjWrapper .pjBsSeats .pjBsListBusses .pjBsBusDuration { margin: 0; font-size: 12px; line-height: 1.4; }
+#pjWrapper .pjBsSeats .pjBsListBusses .form-group { margin: 0; }
+#pjWrapper .pjBsSeats .pjBsListBusses .form-group label { font-size: 15px; line-height: 1.2; font-weight: 700; }
+#pjWrapper .pjBsSeats .pjBsListBusses .pjBsFormControlsInline { font-size: 0; }
+#pjWrapper .pjBsSeats .pjBsListBusses .pjBsFormControlsInline .form-control,
+#pjWrapper .pjBsSeats .pjBsListBusses .pjBsFormControlsInline p { display: inline-block; vertical-align: middle; }
+#pjWrapper .pjBsSeats .pjBsListBusses .pjBsFormControlsInline .form-control { width: 45px; margin-right: 2px; padding: 0 0 0 5px; }
+#pjWrapper .pjBsSeats .pjBsListBusses .pjBsFormControlsInline p { margin: 0; font-size: 13px; line-height: 1.4; }
+#pjWrapper .pjBsSeats .pjBsListBusses .form-group { padding: 5px 0; }
+#pjWrapper .pjBsSeats .pjBsListBusses .input-group .form-control,
+#pjWrapper .pjBsSeats .pjBsListBusses .input-group .input-group-addon { padding: 0 5px; }
+#pjWrapper .pjBsSeats .pjBsSeatsBody { padding-bottom: 0; }
+#pjWrapper .pjBsSeats .pjBsPickupSeatsBody { padding-bottom: 15px; }   
+#pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsChosenSeats { padding-bottom: 10px; font-size: 0; }
+#pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsChosenSeats p,
+#pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsChosenSeats dl,
+#pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsChosenSeats .btn-link { display: inline-block; margin: 0; padding-right: 20px; font-size: 15px; line-height: 1.4; vertical-align: baseline; }
+#pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsChosenSeats .btn-link { padding: 0; }
+#pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsChosenSeats p { font-weight: 600; }
+#pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsChosenSeats p strong { font-weight: 700; }
+#pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsChosenSeats dl dt,
+#pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsChosenSeats dl dd { overflow: visible; display: inline-block; float: none; width: auto; min-width: 1px; margin: 0; font-size: 15px; line-height: 1.4; }
+#pjWrapper .pjBsSeats .pjBsSeat { display: inline-block; width: 20px; height: 20px; font-size: 14px; line-height: 20px; font-weight: 400; text-align: center; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; -o-user-select: none; user-select: none; }
+#pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsSeatsContainer .pjBsSeat { position: absolute; cursor: pointer; -webkit-transform: translateZ(0); transform: translateZ(0); -webkit-backface-visibility: hidden; backface-visibility: hidden; -moz-osx-font-smoothing: grayscale; }
+#pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsSeatsContainer .bs-available:hover,
+#pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsSeatsContainer .bs-selected { -webkit-animation-name: hvr-pop; animation-name: hvr-pop; -webkit-animation-duration: 0.3s; animation-duration: 0.3s; -webkit-animation-timing-function: linear; animation-timing-function: linear; -webkit-animation-iteration-count: 1; animation-iteration-count: 1; }
+#pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsSeatsContainer .bs-booked { cursor: default; }
+#pjWrapper .pjBsSeats .pjBsSeatsFoot { padding-top: 15px; }
+#pjWrapper .pjBsSeats .pjBsSeatsFoot .pjBsSeatsKey { margin: 0; }
+#pjWrapper .pjBsSeats .pjBsSeatsFoot .pjBsSeatsKey li { padding: 0 10px 0 0; font-size: 0; }
+#pjWrapper .pjBsSeats .pjBsSeatsFoot .pjBsSeatsKey span { display: inline-block; margin-right: 5px; font-size: 14px; font-weight: 400; vertical-align: middle; }
+
+#pjWrapper .pjBsFormTickets .pjBsFormFoot .pjBsTotalPrice { overflow: hidden; margin: 0; padding-bottom: 15px; font-size: 24px; line-height: 1.4; font-weight: 700; }
+
+/* ==========================================================================
+	#pjBsFormCheckout
+========================================================================== */
+#pjWrapper .pjBsFormCheckout .pjBsFormHead { padding-bottom: 15px; }
+#pjWrapper .pjBsFormCheckout .pjBsFormHead .pjBsFormTitle { font-size: 24px; line-height: 1.4; font-weight: 700; text-decoration: }
+#pjWrapper .pjBsFormBoxes { padding: 10px 0 30px; }
+#pjWrapper .pjBsFormBoxes .pjBsFormBox .pjBsFormBoxInner { min-height: 290px; padding: 15px 10px; border-radius: 4px; }
+#pjWrapper .pjBsFormBoxes .pjBsFormBox .pjBsFormBoxTitle { margin: 0; font-size: 18px; line-height: 1.4; font-weight: 700; text-transform: uppercase; }
+#pjWrapper .pjBsFormBoxes .pjBsFormBox .pjBsFormBoxData { margin: 0; padding: 10px 0; font-size: 0; }
+#pjWrapper .pjBsFormBoxes .pjBsFormBox .pjBsFormBoxData dt,
+#pjWrapper .pjBsFormBoxes .pjBsFormBox .pjBsFormBoxData dd { display: inline-block; float: none; margin: 0; font-size: 15px; line-height: 1.4; vertical-align: top; }
+#pjWrapper .pjBsFormBoxes .pjBsFormBox .pjBsFormBoxData dt { font-weight: 400; text-align: left; }
+#pjWrapper .pjBsFormBoxes .pjBsFormBox .pjBsFormBoxData dd { padding-left: 5px; font-weight: 700; }
+#pjWrapper .pjBsFormBoxes .pjBsFormBox .pjBsFormBoxData p { margin: 0; }
+#pjWrapper .pjBsFormBoxes .pjBsFormBox .pjBsFormBoxData .btn-link { padding: 0; vertical-align: baseline; }
+
+#pjWrapper .pjBsFormCheckout .pjBsFormBody .pjBsFormTitle { margin: 0; padding-bottom: 20px; font-size: 18px; line-height: 1.4; font-weight: 600; }
+#pjWrapper .pjBsFormCheckout .control-label { font-weight: 600; text-align: left; }
+#pjWrapper .pjBsFormCheckout .pjBsFormFoot .form-group { padding: 15px 10px 0; border-top: 1px solid #ded8d8; }
+#pjWrapper .pjBsFormCheckout .pjBsFormFoot .pjBsFormTitle { margin: 0; font-size: 18px; line-height: 1.4; font-weight: 600; }
+#pjWrapper .pjBsFormCheckout .pjBsFormFoot .pjBsFormActions { padding-top: 30px; border-top: 1px solid #ded8d8; }
+#pjWrapper .pjBsFormCheckout .pjBsFormFoot .pjBsFormActions p { margin: 0; padding-bottom: 20px; font-size: 16px; line-height: 1.4; font-weight: 600; }
+#pjWrapper .pjBsFormCheckout .pjBsFormFoot .pjBsFormActions p .btn-link { padding: 0; font-size: inherit; line-height: inherit; vertical-align: baseline; }
+
+#pjWrapper .pjBsFormCheckout .pjBsFormFoot .pjBsFormMessages { padding-top: 20px; padding-bottom: 20px;border-top: 1px solid #ded8d8; }
+
+#pjWrapper .pjBsListPersonalData { margin: 0; padding-bottom: 10px; }
+#pjWrapper .pjBsListPersonalData li { padding: 10px 0; }
+#pjWrapper .pjBsListPersonalData dl { margin: 0; padding: 0; }
+#pjWrapper .pjBsListPersonalData dt,
+#pjWrapper .pjBsListPersonalData dd { display: inline-block; float: none; margin: 0; font-size: 15px; line-height: 1.4; vertical-align: middle; }
+#pjWrapper .pjBsListPersonalData dt { font-weight: 400; text-align: left; }
+#pjWrapper .pjBsListPersonalData dd { font-weight: 700; }
+
+#pjWrapper #pjBrCaptchaImage{cursor: pointer;}
+
+#pjWrapper .ticket_select { min-width: 192px; }
+#pjWrapper .ticket_select .input-group-addon { min-width: 100px; }
+
+/* RTL */
+html[dir="rtl"] .col-lg-1, html[dir="rtl"] .col-lg-10, html[dir="rtl"] .col-lg-11, html[dir="rtl"] .col-lg-12, html[dir="rtl"] .col-lg-2, html[dir="rtl"] .col-lg-3, html[dir="rtl"] .col-lg-4, html[dir="rtl"] .col-lg-5, html[dir="rtl"] .col-lg-6, html[dir="rtl"] .col-lg-7, html[dir="rtl"] .col-lg-8, html[dir="rtl"] .col-lg-9, html[dir="rtl"] .col-md-1, html[dir="rtl"] .col-md-10, html[dir="rtl"] .col-md-11, html[dir="rtl"] .col-md-12, html[dir="rtl"] .col-md-2, html[dir="rtl"] .col-md-3, html[dir="rtl"] .col-md-4, html[dir="rtl"] .col-md-5, html[dir="rtl"] .col-md-6, html[dir="rtl"] .col-md-7, html[dir="rtl"] .col-md-8, html[dir="rtl"] .col-md-9, html[dir="rtl"] .col-sm-1, html[dir="rtl"] .col-sm-10, html[dir="rtl"] .col-sm-11, html[dir="rtl"] .col-sm-12, html[dir="rtl"] .col-sm-2, html[dir="rtl"] .col-sm-3, html[dir="rtl"] .col-sm-4, html[dir="rtl"] .col-sm-5, html[dir="rtl"] .col-sm-6, html[dir="rtl"] .col-sm-7, html[dir="rtl"] .col-sm-8, html[dir="rtl"] .col-sm-9, html[dir="rtl"] .col-xs-1, html[dir="rtl"] .col-xs-10, html[dir="rtl"] .col-xs-11, html[dir="rtl"] .col-xs-12, html[dir="rtl"] .col-xs-2, html[dir="rtl"] .col-xs-3, html[dir="rtl"] .col-xs-4, html[dir="rtl"] .col-xs-5, html[dir="rtl"] .col-xs-6, html[dir="rtl"] .col-xs-7, html[dir="rtl"] .col-xs-8, html[dir="rtl"] .col-xs-9 { float: right; } 
+
+html[dir="rtl"] #pjWrapper .pull-left { float: right!important; }
+html[dir="rtl"] #pjWrapper .pull-right { float: left!important; }
+
+html[dir="rtl"] #pjWrapper .dropdown-menu { right: 0; left: auto; }
+
+html[dir="rtl"] #pjWrapper .pjBsSeats .pjBsListBusses { padding-right: 0; }
+
+html[dir="rtl"] #pjWrapper .input-group .form-control:last-child, 
+html[dir="rtl"] #pjWrapper .input-group-addon:last-child, 
+html[dir="rtl"] #pjWrapper .input-group-btn:first-child > .btn-group:not(:first-child) > .btn, 
+html[dir="rtl"] #pjWrapper .input-group-btn:first-child > .btn:not(:first-child), 
+html[dir="rtl"] #pjWrapper .input-group-btn:last-child > .btn, 
+html[dir="rtl"] #pjWrapper .input-group-btn:last-child > .btn-group > .btn, 
+html[dir="rtl"] #pjWrapper .input-group-btn:last-child > .dropdown-toggle { border-bottom-right-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 4px; border-top-left-radius: 4px; }
+
+html[dir="rtl"] #pjWrapper .input-group .form-control:first-child, 
+html[dir="rtl"] #pjWrapper .input-group-addon:first-child, 
+html[dir="rtl"] #pjWrapper .input-group-btn:first-child > .btn, 
+html[dir="rtl"] #pjWrapper .input-group-btn:first-child > .btn-group > .btn, 
+html[dir="rtl"] #pjWrapper .input-group-btn:first-child > .dropdown-toggle, 
+html[dir="rtl"] #pjWrapper .input-group-btn:last-child > .btn-group:not(:last-child) > .btn, 
+html[dir="rtl"] #pjWrapper .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) { border-bottom-left-radius: 0; border-top-left-radius: 0; border-bottom-right-radius: 4px; border-top-right-radius: 4px; }
+
+html[dir="rtl"] #pjWrapper .input-group-addon:last-child { border-left: 1px solid #ddd; border-right: 0; }
+
+html[dir="rtl"] #pjWrapper .pjBsFormBoxes .pjBsFormBox .pjBsFormBoxData dt { text-align: right; }
+html[dir="rtl"] #pjWrapper .pjBsFormBoxes .pjBsFormBox .pjBsFormBoxData dd { padding-right: 5px; padding-left: 0; }
+html[dir="rtl"] #pjWrapper .pjBsForm .pjBsCaptcha .form-control { margin-left: 7px; margin-right: 0; }
+
+html[dir="rtl"] #pjWrapper .checkbox label, 
+html[dir="rtl"] #pjWrapper .radio label { padding-right: 20px; padding-left: 0; }
+
+html[dir="rtl"] #pjWrapper .checkbox input[type="checkbox"], 
+html[dir="rtl"] #pjWrapper .checkbox-inline input[type="checkbox"], 
+html[dir="rtl"] #pjWrapper .radio input[type="radio"], 
+html[dir="rtl"] #pjWrapper .radio-inline input[type="radio"] { margin-right: -20px; margin-left: 0; }
+
+html[dir="rtl"] #pjWrapper .pjBsPickupSeatsFoot ul,
+html[dir="rtl"] #pjWrapper .help-block.with-errors ul { padding-right: 0; }
+
+html[dir="rtl"] #pjWrapper .pjBsSeats .pjBsSeatsFoot .pjBsSeatsKey li { padding: 10px; padding-right: 0; }
+
+html[dir="rtl"] #pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsChosenSeats p, 
+html[dir="rtl"] #pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsChosenSeats dl, 
+html[dir="rtl"] #pjWrapper .pjBsSeats .pjBsSeatsBody .pjBsChosenSeats .btn-link { padding-left: 20px; padding-right: 0; }
+
+html[dir="rtl"] #pjWrapper .pjBsSeats .pjBsSeatsFoot .pjBsSeatsKey span { margin-right: 0; margin-left: 5px; }
+
+html[dir="rtl"] #pjWrapper .pjBsFormCheckout .control-label,
+html[dir="rtl"] #pjWrapper .pjBsListPersonalData dt { text-align: right; }
+
+html[dir="rtl"] #pjWrapper .btn-group-vertical > .btn, 
+html[dir="rtl"] #pjWrapper .btn-group > .btn { float: right; }
+
+html[dir="rtl"] #pjWrapper .btn-group .btn + .btn, 
+html[dir="rtl"] #pjWrapper .btn-group .btn + .btn-group, 
+html[dir="rtl"] #pjWrapper .btn-group .btn-group + .btn, 
+html[dir="rtl"] #pjWrapper .btn-group .btn-group + .btn-group { margin-right: -1px; margin-left: 0; }
+
+html[dir="rtl"] #pjWrapper .btn-group > .btn:last-child:not(:first-child), 
+html[dir="rtl"] #pjWrapper .btn-group > .dropdown-toggle:not(:first-child) { border-bottom-right-radius: 0; border-top-right-radius: 0; border-bottom-left-radius: 4px; border-top-left-radius: 4px; }
+
+html[dir="rtl"] #pjWrapper .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) { border-bottom-left-radius: 0; border-top-left-radius: 0; border-bottom-right-radius: 4px; border-top-right-radius: 4px; }
+
+/* ==========================================================================
+	.Modal
+========================================================================== */
+.modal-backdrop.fade {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.modal-backdrop.fade.in {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+/* ==========================================================================
+	.Modal
+========================================================================== */
+#pjWrapper .bsMapContainer,
+#pjWrapper .bsReturnMapContainer{
+	border: 1px solid #d1d0cb;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 14px;
+}
+#pjWrapper .bsMapContainer .bsSystemMessage,
+#pjWrapper .bsReturnMapContainer .bsSystemMessage{
+	margin: 10px;
+}
+#pjWrapper .bsMapContainer .empty,
+#pjWrapper .bsReturnMapContainer .empty {
+    background-color: #135E8D;
+    color: #FFFFFF;
+}
+#pjWrapper .bsMapContainer .bs-available,
+#pjWrapper .bsReturnMapContainer .bs-return-available{
+	background: #1b6aac none repeat scroll 0 0;
+	cursor: pointer;
+}
+#pjWrapper .bsMapContainer .bs-booked,
+#pjWrapper .bsReturnMapContainer .bs-return-booked{
+	background: #ed0909 none repeat scroll 0 0;
+}
+#pjWrapper .bsMapContainer .bs-selected,
+#pjWrapper .bsReturnMapContainer .bs-return-selected{
+	background: #56ae33 none repeat scroll 0 0;
+}
+#pjWrapper .bsMapContainer .bs-available:hover,
+#pjWrapper .bsReturnMapContainer .bs-return-available:hover{
+	background: #56ae33 none repeat scroll 0 0;
+	-webkit-animation-name: hvr-pop; animation-name: hvr-pop; -webkit-animation-duration: 0.3s; animation-duration: 0.3s; -webkit-animation-timing-function: linear; animation-timing-function: linear; -webkit-animation-iteration-count: 1; animation-iteration-count: 1;
+}
+
+#pjWrapper .bsMapHolder,
+#pjWrapper .bsReturnMapHolder{
+    position: relative;
+    overflow: auto;
+    overflow-y: hidden;
+    -ms-overflow-y: hidden;
+}
+#pjWrapper .bsMapContainer .rect,
+#pjWrapper .bsReturnMapContainer .rect{
+    cursor: pointer;
+    display: block;
+    font-size: 0.9em;
+    overflow: hidden;
+    position: absolute;
+    text-align: center;
+    z-index: 1000;
+}
+#pjWrapper .pjBsSeats .pjBsSeatAvailable {
+    background: #1b6aac none repeat scroll 0 0;
+}
+#pjWrapper .pjBsSeats .pjBsSeatSelected {
+    background: #56ae33 none repeat scroll 0 0;
+}
+#pjWrapper .pjBsSeats .pjBsSeatBooked {
+    background: #ed0909 none repeat scroll 0 0;
+}
+/* ==========================================================================
+	#Responsive
+========================================================================== */
+@media only screen and (max-width: 1199px) {
+	/* ==========================================================================
+		#pjBsFormAvailability
+	========================================================================== */
+	#pjWrapper .pjBsSeats .pjBsListBusses > li > .row > * { padding-top: 2px; padding-bottom: 2px; }
+}
+
+@media only screen and (max-width: 767px) {
+	/* ==========================================================================
+		#Forms
+	========================================================================== */
+	#pjWrapper .pjBsForm .pjBsFieldInline { width: 100%; }
+
+	/* ==========================================================================
+		#pjBsFormTickets
+	========================================================================== */
+	#pjWrapper .pjBsFormTickets .pjBsFormHead .pjBsFormTitle,
+	#pjWrapper .pjBsFormTickets .pjBsFormHead .pjBsDepartureDate { float: none !important; }
+
+	/* ==========================================================================
+		#pjBsFormAvailability
+	========================================================================== */
+	#pjWrapper .pjBsFormAvailability .pjBsFormActions { padding-top: 0; }
+	#pjWrapper .pjBsFormAvailability .pjBsFormArticle { padding-top: 0; }
+	#pjWrapper .pjBsFormAvailability .pjBsFormArticle .pjBsFormArticleTitle { font-size: 18px; }
+
+	/* ==========================================================================
+		#pjBsFormBoxes
+	========================================================================== */
+	#pjWrapper .pjBsFormBoxes .pjBsFormBox { padding: 10px; }
+}
+
+@media only screen and (max-width: 640px) {
+	/* ==========================================================================
+		#pjBsFormBoxes
+	========================================================================== */
+	#pjWrapper .pjBsSeats .pjBsListBusses .row .row .col-xs-4 { width: 50%; }
+}
+
+@media only screen and (max-width: 520px) {
+	/* ==========================================================================
+		#pjBsFormBoxes
+	========================================================================== */
+	#pjWrapper .pjBsFormBoxes .pjBsFormBox { width: 100%; }
+	#pjWrapper .pjBsSeats .pjBsSeatsHead .col-xs-4 { display: none; }
+	#pjWrapper .pjBsSeats .pjBsListBusses .col-xs-8 { width: 100%; }
+	#pjWrapper .pjBsSeats .pjBsListBusses .col-xs-4 { width: 50%; }
+}
+
+@media only screen and (max-width: 450px) {
+	#pjWrapper .pjBsFormAvailability .col-xss-12 { width: 100%; }
+}
+
+@media only screen and (max-width: 440px) {
+	/* ==========================================================================
+		#pjBsFormAvailability
+	========================================================================== */
+	#pjWrapper .pjBsSeats .pjBsListBusses > li > .row > .col-xs-9 { padding-right: 5px; }
+	#pjWrapper .pjBsSeats .pjBsListBusses .row .row .col-xs-4 { width: 100%; }
+
+	#pjWrapper .pjBsForm .pjBsDatePicker .form-control { padding: 0 25px 0 10px; }
+
+	#pjWrapper .pjBsSelectsRow .col-xs-6 { width: 100%; }
+}
+
+@media only screen and (max-width: 360px) {
+	/* ==========================================================================
+		#pjBsFormBoxes
+	========================================================================== */
+	#pjWrapper .pjBsSeats .pjBsListBusses > li > .row .row .col-xs-4 { width: 100%; }
+}

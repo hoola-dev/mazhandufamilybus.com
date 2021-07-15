@@ -1,0 +1,13 @@
+.pj-form-reset{
+	background: url(../../../../../core/framework/libs/pj/img/pj-delete.png) 0 0 no-repeat;
+	border: none;
+	cursor: pointer;
+	display: inline-block;
+    height: 24px;
+    vertical-align: middle;
+    visibility: hidden;
+    width: 23px;
+}
+.pj-form-reset:hover{
+	background-position: 0 -24px;
+}
